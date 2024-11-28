@@ -1,0 +1,6 @@
+name = "ITensorRegistry"
+uuid = "c4d53e37-7e0e-4be9-ba6f-c27e01f48020"
+repo = "https://github.com/ITensor/JuliaRegistry"
+description = "Private registry for unreleased or unfinished ITensors packages"
+
+[packages]
