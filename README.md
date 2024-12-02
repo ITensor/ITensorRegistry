@@ -24,4 +24,4 @@ using LocalRegistry: LocalRegistry
 LocalRegistry.register()
 ```
 
-Otherwise, you may have to specify the specific registry, for which you can follow the instructions [here](https://github.com/GunnarFarneback/LocalRegistry.jl/docs/create_registry.md).
+Otherwise, you may have to specify the specific registry, for which you can follow the instructions [here](https://github.com/GunnarFarneback/LocalRegistry.jl/blob/master/docs/register.md).
