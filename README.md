@@ -10,7 +10,7 @@ After this, the package manager will automatically attempt to resolve names of p
 
 ```julia
 using Pkg: Pkg
-Pkg.Registry.add(url="https://github.com/ITensor/JuliaRegistry")
+Pkg.Registry.add(url="https://github.com/ITensor/ITensorRegistry")
 ```
 
 ## Registering a package
