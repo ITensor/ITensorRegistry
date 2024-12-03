@@ -15,7 +15,7 @@ Pkg.Registry.add(url="https://github.com/ITensor/ITensorRegistry")
 
 ## Registering a package
 
-In order to register a new package, or a new version, you can simply follow the instructions [here](https://github.com/GunnarFarneback/ITensorRegistry.jl).
+In order to register a new package, or a new version, you can simply follow the instructions [here](https://github.com/GunnarFarneback/LocalRegistry.jl/blob/master/docs/register.md).
 First, you should add `LocalRegistry.jl` in your global environment.
 
 Then, for a new package, if you only have a single additional registry which is not `General`, or for a new version, you can simply activate that package and call
