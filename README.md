@@ -12,6 +12,11 @@ After this, the package manager will automatically attempt to resolve names of p
 using Pkg: Pkg
 Pkg.Registry.add(url="https://github.com/ITensor/ITensorRegistry")
 ```
+or:
+```julia
+Pkg.Registry.add(url="git@github.com:ITensor/ITensorRegistry.git")
+```
+if you want to use SSH credentials, which can make it so you don't have to enter your Github ursername and password when registering packages.
 
 ## Registering a package
 
