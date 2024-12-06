@@ -1,0 +1,3 @@
+name = "NewPkg"
+uuid = "3ce3220d-c6cb-4fcd-b3c1-56d9c50edbe5"
+repo = "https@github.com:ITensor/NewPkg.jl"
