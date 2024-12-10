@@ -1,0 +1,3 @@
+name = "UnallocatedArrays"
+uuid = "43c9e47c-e622-40fb-bf18-a09fc8c466b6"
+repo = "https://github.com/ITensor/UnallocatedArrays.jl.git"

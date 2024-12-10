@@ -1,0 +1,6 @@
+[0]
+Adapt = "4.1.1 - 4"
+FillArrays = "1.13.0 - 1"
+TypeParameterAccessors = "0.1"
+UnspecifiedTypes = "0.1"
+julia = "1.10.0 - 1"
