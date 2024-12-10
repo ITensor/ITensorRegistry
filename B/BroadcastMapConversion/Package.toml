@@ -1,3 +1,3 @@
 name = "BroadcastMapConversion"
 uuid = "4a4adec5-520f-4750-bb37-d5e66b4ddeb2"
-repo = "https://github.com/ITensor/BroadcastMapConversion.jl.git"
+repo = "https://github.com/ITensor/BroadcatsMapConversion.jl.git"
