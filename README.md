@@ -27,7 +27,7 @@ First, you should add `LocalRegistry.jl` in your global environment.
 Then, for a new package, register the package `pkgname` in the Github organization `ghuser` (`ghuser = "ITensor"` if the package is hosted in the ITensor organization) by changing to the directory of the package and registering with the URL of the package repository:
 ```julia
 using LocalRegistry: LocalRegistry
-cd("~/.julia/dev/$pkgname") do
+cd(expanduser("~/.julia/dev/$pkgname")) do
   return LocalRegistry.register(; repo="https://github.com/$ghuser/$pkgname.jl.git")
 end
 ```
@@ -36,7 +36,7 @@ This assumes you only have a single additional registry which is not `General`, 
 For registering a new version, you can simply change to the directory of the package and call `LocalRegistry.register()` (the repository URL doesn't need to be specified since it is determined from the registry):
 ```julia
 using LocalRegistry: LocalRegistry
-cd("~/.julia/dev/$pkgname") do
+cd(expanduser("~/.julia/dev/$pkgname")) do
   return LocalRegistry.register()
 end
 ```
@@ -44,7 +44,7 @@ end
 The following functions may be useful:
 ```julia
 function register_pkg(pkgname; new, ghuser="ITensor")
-  return cd("~/.julia/dev/$pkgname") do
+  return cd(expanduser("~/.julia/dev/$pkgname")) do
     if new
       return LocalRegistry.register(; repo="https://github.com/$ghuser/$pkgname.jl.git")
     else
