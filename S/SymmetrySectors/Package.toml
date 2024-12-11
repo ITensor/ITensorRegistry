@@ -1,0 +1,3 @@
+name = "SymmetrySectors"
+uuid = "f8a8ad64-adbc-4fce-92f7-ffe2bb36a86e"
+repo = "https://github.com/ITensor/SymmetrySectors.jl.git"
