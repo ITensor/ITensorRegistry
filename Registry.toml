@@ -14,3 +14,4 @@ description = "Private registry for unreleased or unfinished ITensors packages"
 a07dfc7f-7d04-4eb5-84cc-a97f051f655a = { name = "Derive", path = "D/Derive" }
 e2de450a-8a67-46c7-b59c-01d5a3d041c5 = { name = "GradedUnitRanges", path = "G/GradedUnitRanges" }
 f856a3a6-4152-4ec4-b2a7-02c1a55d7993 = { name = "LabelledNumbers", path = "L/LabelledNumbers" }
+f9fb0810-3969-484c-b54e-62935ba8ba22 = { name = "ITensorEntropyTools", path = "I/ITensorEntropyTools" }

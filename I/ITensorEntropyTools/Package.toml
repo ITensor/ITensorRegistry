@@ -1,0 +1,3 @@
+name = "ITensorEntropyTools"
+uuid = "f9fb0810-3969-484c-b54e-62935ba8ba22"
+repo = "https://github.com/ryanlevy/ITensorEntropyTools.jl.git"
