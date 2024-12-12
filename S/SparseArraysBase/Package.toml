@@ -1,3 +1,3 @@
 name = "SparseArraysBase"
 uuid = "0d5efcca-f356-4864-8770-e1ed8d78f208"
-repo = "git@github.com:ITensor/SparseArraysBase.jl.git"
+repo = "https://github.com/ITensor/SparseArraysBase.jl.git"
