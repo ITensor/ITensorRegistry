@@ -1,0 +1,3 @@
+name = "NamedDimsArrays"
+uuid = "60cbd0c0-df58-4cb7-918c-6f5607b73fde"
+repo = "https://github.com/ITensor/NamedDimsArrays.jl.git"
