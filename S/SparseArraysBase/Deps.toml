@@ -1,0 +1,13 @@
+[0]
+Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+ArrayLayouts = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
+BroadcastMapConversion = "4a4adec5-520f-4750-bb37-d5e66b4ddeb2"
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Dictionaries = "85a47980-9c8c-11e8-2b9f-f7ca1fa99fb4"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+NestedPermutedDimsArrays = "2c2a8ec4-3cfc-4276-aa3e-1307b4294e58"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
+VectorInterface = "409d34a3-91d5-4945-b6ec-7529ddf182d8"
