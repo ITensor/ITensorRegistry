@@ -1,0 +1,3 @@
+name = "DiagonalArrays"
+uuid = "74fd4be6-21e2-4f6f-823a-4360d37c7a77"
+repo = "https://github.com/ITensor/DiagonalArrays.jl.git"
