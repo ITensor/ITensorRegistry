@@ -1,11 +1,18 @@
 [0]
+Dictionaries = "0.4.3 - 0.4"
+LinearAlgebra = "1.10.0 - 1"
+julia = "1.10.0 - 1"
+
+["0 - 0.1"]
 Accessors = "0.1.38 - 0.1"
 Adapt = "4.1.1 - 4"
 ArrayLayouts = "1.10.4 - 1"
 Compat = "4.16.0 - 4"
-Dictionaries = "0.4.3 - 0.4"
-LinearAlgebra = "1.10.0 - 1"
 MacroTools = "0.5.13 - 0.5"
 SparseArrays = "1.10.0 - 1"
 VectorInterface = "0.5"
-julia = "1.10.0 - 1"
+
+["0.2 - 0"]
+ArrayLayouts = "1.11.0 - 1"
+BroadcastMapConversion = "0.1"
+Derive = "0.3"
