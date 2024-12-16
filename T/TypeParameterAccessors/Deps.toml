@@ -1,4 +1,6 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
+
+["0 - 0.1"]
 StridedViews = "4db3bf67-4bd7-4b4e-b153-31dc3fb37143"
