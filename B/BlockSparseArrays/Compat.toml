@@ -3,8 +3,16 @@ Adapt = "4.1.1 - 4"
 ArrayLayouts = "1.10.4 - 1"
 BlockArrays = "1.2.0 - 1"
 Dictionaries = "0.4.3 - 0.4"
-GPUArraysCore = "0.1"
 LinearAlgebra = "1.10.0 - 1"
 MacroTools = "0.5.13 - 0.5"
 SplitApplyCombine = "1.2.3 - 1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1"]
+GPUArraysCore = "0.1"
+
+["0.2 - 0"]
+Derive = "0.3.1 - 0.3"
+GradedUnitRanges = "0.1"
+SparseArraysBase = "0.2"
+TypeParameterAccessors = "0.1"
