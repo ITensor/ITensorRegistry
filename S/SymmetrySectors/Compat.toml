@@ -1,6 +1,11 @@
 [0]
 BlockArrays = "1.2.0 - 1"
-GradedUnitRanges = "0.1"
 HalfIntegers = "1.6.0 - 1"
 LabelledNumbers = "0.1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1.0"]
+GradedUnitRanges = "0.1"
+
+["0.1.1 - 0"]
+GradedUnitRanges = "0.1.1 - 0.1"
