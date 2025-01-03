@@ -16,3 +16,6 @@ BroadcastMapConversion = "0.1.2 - 0.1"
 Derive = "0.3.6 - 0.3"
 SimpleTraits = "0.9.4 - 0.9"
 TypeParameterAccessors = "0.2"
+
+["0.3 - 0"]
+ArrayLayouts = "1.11.0 - 1"

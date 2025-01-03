@@ -13,3 +13,6 @@ SparseArraysBase = "0d5efcca-f356-4864-8770-e1ed8d78f208"
 ["0.2 - 0"]
 Derive = "a07dfc7f-7d04-4eb5-84cc-a97f051f655a"
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
+
+["0.3 - 0"]
+ArrayLayouts = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
