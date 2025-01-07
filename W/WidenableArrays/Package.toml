@@ -1,0 +1,3 @@
+name = "WidenableArrays"
+uuid = "e204200e-d7ba-4b7e-bfa9-053a2e530198"
+repo = "https@github.com:ITensor/WidenableArrays.jl"
