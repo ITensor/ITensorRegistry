@@ -1,0 +1,4 @@
+[0]
+BroadcastMapConversion = "0.1.2 - 0.1"
+NamedDimsArrays = "0.3"
+julia = "1.10.0 - 1"
