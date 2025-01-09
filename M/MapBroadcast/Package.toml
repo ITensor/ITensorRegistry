@@ -1,0 +1,3 @@
+name = "MapBroadcast"
+uuid = "ebd9b9da-f48d-417c-9660-449667d60261"
+repo = "https://github.com/ITensor/MapBroadcast.jl.git"
