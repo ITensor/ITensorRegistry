@@ -27,3 +27,6 @@ Derive = "0.3.6 - 0.3"
 ["0.2.3 - 0"]
 DerivableInterfaces = "0.3.7 - 0.3"
 MapBroadcast = "0.1.5 - 0.1"
+
+["0.2.4 - 0"]
+Accessors = "0.1.41 - 0.1"
