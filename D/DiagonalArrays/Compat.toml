@@ -19,3 +19,6 @@ TypeParameterAccessors = "0.2"
 
 ["0.2.1 - 0"]
 DerivableInterfaces = "0.3.7 - 0.3"
+
+["0.2.2 - 0"]
+LinearAlgebra = "1.10.0 - 1"
