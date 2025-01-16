@@ -24,3 +24,6 @@ ArrayLayouts = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
 ["0.3.4 - 0"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 MapBroadcast = "ebd9b9da-f48d-417c-9660-449667d60261"
+
+["0.3.6 - 0"]
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
