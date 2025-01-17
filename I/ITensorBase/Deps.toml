@@ -19,3 +19,6 @@ MapBroadcast = "ebd9b9da-f48d-417c-9660-449667d60261"
 
 ["0.1.3 - 0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.1.4 - 0"]
+VectorInterface = "409d34a3-91d5-4945-b6ec-7529ddf182d8"
