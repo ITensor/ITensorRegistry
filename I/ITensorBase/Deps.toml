@@ -16,3 +16,6 @@ UnspecifiedTypes = "42b3faec-625b-4613-8ddc-352bf9672b8d"
 ["0.1.2 - 0"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 MapBroadcast = "ebd9b9da-f48d-417c-9660-449667d60261"
+
+["0.1.3 - 0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
