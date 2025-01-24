@@ -1,0 +1,3 @@
+name = "QuantumOperatorDefinitions"
+uuid = "826dd319-6fd5-459a-a990-3a4f214664bf"
+repo = "https://github.com/ITensor/QuantumOperatorDefinitions.jl.git"
