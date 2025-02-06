@@ -1,2 +1,5 @@
 ["0.3 - 0"]
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
+
+["0.4.1 - 0"]
+GradedUnitRanges = "e2de450a-8a67-46c7-b59c-01d5a3d041c5"
