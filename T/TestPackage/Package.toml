@@ -1,0 +1,3 @@
+name = "TestPackage"
+uuid = "be4d3e89-4dcc-4f34-a73c-076e5da60062"
+repo = "https://github.com/ITensor/TestPackage.jl.git"
