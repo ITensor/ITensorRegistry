@@ -19,8 +19,11 @@ UnspecifiedTypes = "0.1.1 - 0.1"
 ["0.1.12 - 0.1.15"]
 NamedDimsArrays = "0.4"
 
-["0.1.16 - 0"]
+["0.1.16 - 0.1.18"]
 NamedDimsArrays = "0.4.5 - 0.4"
+
+["0.1.19 - 0"]
+NamedDimsArrays = "0.5"
 
 ["0.1.2 - 0"]
 DerivableInterfaces = "0.3.7 - 0.3"
