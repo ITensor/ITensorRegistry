@@ -1,3 +1,8 @@
 ["0.2 - 0"]
 LabelledNumbers = "0.1"
+
+["0.2 - 0.2.23"]
 TensorAlgebra = "0.1"
+
+["0.2.24 - 0"]
+TensorAlgebra = "0.1 - 0.2"
