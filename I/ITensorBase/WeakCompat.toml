@@ -7,5 +7,8 @@ SparseArraysBase = "0.2.11 - 0.2"
 ["0.1.15 - 0"]
 GradedUnitRanges = "0.1.4 - 0.1"
 
-["0.1.20 - 0"]
+["0.1.20 - 0.1.21"]
 SparseArraysBase = "0.2.11 - 0.3"
+
+["0.1.22 - 0"]
+SparseArraysBase = "0.4"
