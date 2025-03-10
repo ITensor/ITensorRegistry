@@ -6,3 +6,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
 MapBroadcast = "ebd9b9da-f48d-417c-9660-449667d60261"
 TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
+
+["0.4 - 0"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
