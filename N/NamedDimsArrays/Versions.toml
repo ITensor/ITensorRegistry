@@ -1,20 +1,26 @@
 ["0.1.0"]
 git-tree-sha1 = "534be2f9885deac21e69141fad1126d71b946237"
+yanked = true
 
 ["0.2.0"]
 git-tree-sha1 = "3c547223b9ac006ce10933d0e57bb45a5f1b2d2f"
+yanked = true
 
 ["0.3.0"]
 git-tree-sha1 = "5bcc45f4272b3e86cafb8ff95936a19aeef714f7"
+yanked = true
 
 ["0.3.1"]
 git-tree-sha1 = "51d975a8e568818aad8ee2a0208010cb3265bb8e"
+yanked = true
 
 ["0.3.2"]
 git-tree-sha1 = "33e70d5356316e71699df6980a864eafd9dec61d"
+yanked = true
 
 ["0.3.3"]
 git-tree-sha1 = "b100cb3899bf5235d65cb44b21a2f7fdfb6a599a"
+yanked = true
 
 ["0.3.4"]
 git-tree-sha1 = "4ca46d28fe6ddb77b7e13978551e074bb4afe0f1"
