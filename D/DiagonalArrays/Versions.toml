@@ -1,8 +1,10 @@
 ["0.1.0"]
 git-tree-sha1 = "ebacf01231a97e9d2de6a9abca133a83648be1f5"
+yanked = true
 
 ["0.2.0"]
 git-tree-sha1 = "abfe9990857925ba3732fe16a91dc57683187e5b"
+yanked = true
 
 ["0.2.1"]
 git-tree-sha1 = "ac6589450ba099f00aa9d74e6e0915b49f56f1bd"
