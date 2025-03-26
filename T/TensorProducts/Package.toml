@@ -1,0 +1,3 @@
+name = "TensorProducts"
+uuid = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
+repo = "https://github.com/ITensor/TensorProducts.jl"
