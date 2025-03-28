@@ -11,15 +11,15 @@ julia = "1.10.0 - 1"
 ["0 - 0.1"]
 GPUArraysCore = "0.1"
 
-["0.2 - 0"]
-GradedUnitRanges = "0.1"
-
 ["0.2 - 0.2.1"]
 SparseArraysBase = "0.2"
 TypeParameterAccessors = "0.1"
 
 ["0.2 - 0.2.2"]
 Derive = "0.3.1 - 0.3"
+
+["0.2 - 0.3.8"]
+GradedUnitRanges = "0.1"
 
 ["0.2.10 - 0"]
 GPUArraysCore = "0.1 - 0.2"
@@ -68,3 +68,6 @@ SparseArraysBase = "0.5"
 
 ["0.3.6 - 0"]
 DerivableInterfaces = "0.4"
+
+["0.3.9 - 0"]
+GradedUnitRanges = "0.2.2 - 0.2"
