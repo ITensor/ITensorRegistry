@@ -4,7 +4,7 @@ DiagonalArrays = "0.2.3 - 0.2"
 ["0.1.14 - 0.1.19"]
 SparseArraysBase = "0.2.11 - 0.2"
 
-["0.1.15 - 0"]
+["0.1.15 - 0.1.26"]
 GradedUnitRanges = "0.1.4 - 0.1"
 
 ["0.1.20 - 0.1.21"]
@@ -18,3 +18,6 @@ DiagonalArrays = "0.3"
 
 ["0.1.24 - 0"]
 SparseArraysBase = "0.5"
+
+["0.1.27 - 0"]
+GradedUnitRanges = "0.2"
