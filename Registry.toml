@@ -26,6 +26,7 @@ a07dfc7f-7d04-4eb5-84cc-a97f051f655a = { name = "Derive", path = "D/Derive" }
 be4d3e89-4dcc-4f34-a73c-076e5da60062 = { name = "TestPackage", path = "T/TestPackage" }
 c7a6d0f7-daa6-4368-ba67-89ed64127c3b = { name = "QuantumOperatorAlgebra", path = "Q/QuantumOperatorAlgebra" }
 decf83d6-1968-43f4-96dc-fdb3fe15fc6d = { name = "TensorProducts", path = "T/TensorProducts" }
+e16ca583-1f51-4df0-8e12-57d32947d33e = { name = "FusionTensors", path = "F/FusionTensors" }
 e204200e-d7ba-4b7e-bfa9-053a2e530198 = { name = "WidenableArrays", path = "W/WidenableArrays" }
 e2de450a-8a67-46c7-b59c-01d5a3d041c5 = { name = "GradedUnitRanges", path = "G/GradedUnitRanges" }
 ebd9b9da-f48d-417c-9660-449667d60261 = { name = "MapBroadcast", path = "M/MapBroadcast" }

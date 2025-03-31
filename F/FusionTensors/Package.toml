@@ -1,0 +1,3 @@
+name = "FusionTensors"
+uuid = "e16ca583-1f51-4df0-8e12-57d32947d33e"
+repo = "https://github.com/ITensor/FusionTensors.jl"
