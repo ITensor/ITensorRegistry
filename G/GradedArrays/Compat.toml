@@ -7,3 +7,9 @@ Random = "1.10.0 - 1"
 SplitApplyCombine = "1.2.3 - 1"
 TensorProducts = "0.1.3 - 0.1"
 julia = "1.10.0 - 1"
+
+["0.2 - 0"]
+BlockSparseArrays = "0.4"
+DerivableInterfaces = "0.4.4 - 0.4"
+LinearAlgebra = "1.10.0 - 1"
+TypeParameterAccessors = "0.3.9 - 0.3"
