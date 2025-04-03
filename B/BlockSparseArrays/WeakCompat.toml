@@ -9,4 +9,6 @@ TensorAlgebra = "0.1 - 0.2"
 
 ["0.3.9 - 0"]
 TensorAlgebra = "0.2.4 - 0.2"
+
+["0.3.9 - 0.3"]
 TensorProducts = "0.1.2 - 0.1"
