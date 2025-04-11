@@ -45,3 +45,6 @@ NamedDimsArrays = "0.6"
 
 ["0.2.2 - 0"]
 NamedDimsArrays = "0.7"
+
+["0.2.3 - 0"]
+TensorAlgebra = "0.3"

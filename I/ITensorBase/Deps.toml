@@ -22,3 +22,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.1.4 - 0"]
 VectorInterface = "409d34a3-91d5-4945-b6ec-7529ddf182d8"
+
+["0.2.3 - 0"]
+TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
