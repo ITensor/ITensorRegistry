@@ -1,0 +1,3 @@
+name = "SerializedArrays"
+uuid = "621c0da3-e96e-4f80-bd06-5ae31cdfcb39"
+repo = "https://github.com/ITensor/SerializedArrays.jl"

@@ -15,6 +15,7 @@ description = "Private registry for unreleased or unfinished ITensors packages"
 4795dd04-0d67-49bb-8f44-b89c448a1dc7 = { name = "ITensorBase", path = "I/ITensorBase" }
 4a4adec5-520f-4750-bb37-d5e66b4ddeb2 = { name = "BroadcastMapConversion", path = "B/BroadcastMapConversion" }
 60cbd0c0-df58-4cb7-918c-6f5607b73fde = { name = "NamedDimsArrays", path = "N/NamedDimsArrays" }
+621c0da3-e96e-4f80-bd06-5ae31cdfcb39 = { name = "SerializedArrays", path = "S/SerializedArrays" }
 680c2d7c-f67a-4cc9-ae9c-da132b1447a5 = { name = "BackendSelection", path = "B/BackendSelection" }
 68bd88dc-f39d-4e12-b2ca-f046b68fcc6a = { name = "TensorAlgebra", path = "T/TensorAlgebra" }
 6b6dea30-58b3-414c-b7c7-5c6ea5923b3e = { name = "ITensorCorrelators", path = "I/ITensorCorrelators" }
