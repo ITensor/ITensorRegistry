@@ -10,5 +10,8 @@ GradedUnitRanges = "0.2"
 ["0.6"]
 GradedArrays = "0.2.1 - 0.2"
 
-["0.7 - 0"]
+["0.7 - 0.7.1"]
 GradedArrays = "0.3"
+
+["0.7.2 - 0"]
+GradedArrays = "0.4.1 - 0.4"
