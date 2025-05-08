@@ -27,6 +27,11 @@ ITensorBase = "0.2"
 GradedArrays = "0.2.1 - 0.2"
 NamedDimsArrays = "0.6"
 
-["0.2.1 - 0"]
+["0.2.1"]
 GradedArrays = "0.3"
+
+["0.2.1 - 0"]
 NamedDimsArrays = "0.7"
+
+["0.2.2 - 0"]
+GradedArrays = "0.4"
