@@ -1,0 +1,3 @@
+name = "VisualizationBase"
+uuid = "19e8930c-b694-45c7-b48f-ae1a17da5712"
+repo = "https://github.com/ITensor/VisualizationBase.jl"
