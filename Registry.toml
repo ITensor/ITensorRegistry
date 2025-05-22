@@ -4,6 +4,7 @@ repo = "https://github.com/ITensor/ITensorRegistry"
 description = "Private registry for unreleased or unfinished ITensors packages"
 
 [packages]
+05d0b138-81bc-4ff7-84be-08becefb1ccc = { name = "KroneckerArrays", path = "K/KroneckerArrays" }
 0d5efcca-f356-4864-8770-e1ed8d78f208 = { name = "SparseArraysBase", path = "S/SparseArraysBase" }
 19e8930c-b694-45c7-b48f-ae1a17da5712 = { name = "VisualizationBase", path = "V/VisualizationBase" }
 1dc1fb26-a137-4954-ae60-1bd4106e95ad = { name = "ITensorInfiniteMPS", path = "I/ITensorInfiniteMPS" }
