@@ -14,7 +14,7 @@ TypeParameterAccessors = "0.2.1 - 0.2"
 ["0.1.8 - 0"]
 TypeParameterAccessors = "0.2.1 - 0.3"
 
-["0.2.3 - 0"]
+["0.2.3 - 0.3.5"]
 MatrixAlgebraKit = "0.1.1 - 0.1"
 
 ["0.2.4 - 0"]
@@ -25,3 +25,6 @@ TensorProducts = "0.1"
 
 ["0.3 - 0"]
 TensorProducts = "0.1.5 - 0.1"
+
+["0.3.6 - 0"]
+MatrixAlgebraKit = "0.2"
