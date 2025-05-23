@@ -12,3 +12,6 @@ BlockSparseArrays = "2c9a651f-6452-4ace-a6ac-809f4280fbb4"
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
+
+["0.4.4 - 0"]
+MatrixAlgebraKit = "6c742aac-3347-4629-af66-fc926824e5e4"
