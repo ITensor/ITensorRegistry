@@ -33,5 +33,8 @@ BlockSparseArrays = "0.6.1 - 0.6"
 ["0.4.4 - 0"]
 MatrixAlgebraKit = "0.2"
 
-["0.4.5 - 0"]
+["0.4.5"]
 BlockSparseArrays = "0.6.2 - 0.6"
+
+["0.4.6 - 0"]
+BlockSparseArrays = "0.6.5 - 0.6"
