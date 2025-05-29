@@ -1,3 +1,8 @@
 [0]
 LinearAlgebra = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.1.1 - 0"]
+DerivableInterfaces = "0.4.5 - 0.4"
+GPUArraysCore = "0.2"
+MatrixAlgebraKit = "0.2"
