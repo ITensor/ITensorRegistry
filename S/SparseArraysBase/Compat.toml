@@ -39,5 +39,8 @@ Accessors = "0.1.41 - 0.1"
 ["0.3 - 0"]
 Random = "1.10.0 - 1"
 
-["0.5.1 - 0"]
+["0.5.1 - 0.5.9"]
 DerivableInterfaces = "0.4"
+
+["0.5.10 - 0"]
+DerivableInterfaces = "0.5"
