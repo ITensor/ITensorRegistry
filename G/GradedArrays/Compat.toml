@@ -12,13 +12,15 @@ BlockArrays = "1.5.0 - 1"
 
 ["0.2 - 0"]
 LinearAlgebra = "1.10.0 - 1"
-TypeParameterAccessors = "0.3.9 - 0.3"
 
 ["0.2 - 0.2.3"]
 BlockSparseArrays = "0.4"
 
 ["0.2 - 0.4.7"]
 DerivableInterfaces = "0.4.4 - 0.4"
+
+["0.2 - 0.4.9"]
+TypeParameterAccessors = "0.3.9 - 0.3"
 
 ["0.2.4 - 0"]
 BlockArrays = "1.6.0 - 1"
@@ -28,6 +30,9 @@ BlockSparseArrays = "0.4.2 - 0.4"
 
 ["0.4 - 0.4.2"]
 BlockSparseArrays = "0.5"
+
+["0.4.10 - 0"]
+TypeParameterAccessors = "0.4"
 
 ["0.4.4"]
 BlockSparseArrays = "0.6.1 - 0.6"
