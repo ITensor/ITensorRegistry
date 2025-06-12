@@ -36,7 +36,7 @@ DerivableInterfaces = "0.3.7 - 0.3"
 FillArrays = "1.13.0 - 1"
 MapBroadcast = "0.1.6 - 0.1"
 
-["0.4.3 - 0"]
+["0.4.3 - 0.7.6"]
 TypeParameterAccessors = "0.2 - 0.3"
 
 ["0.4.5 - 0"]
@@ -60,3 +60,6 @@ TupleTools = "1.6.0 - 1"
 
 ["0.7.6 - 0"]
 DerivableInterfaces = "0.5"
+
+["0.7.7 - 0"]
+TypeParameterAccessors = "0.4"
