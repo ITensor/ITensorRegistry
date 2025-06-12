@@ -27,7 +27,7 @@ GPUArraysCore = "0.1 - 0.2"
 ["0.2.11 - 0.2.26"]
 SparseArraysBase = "0.2.10 - 0.2"
 
-["0.2.15 - 0"]
+["0.2.15 - 0.7.5"]
 TypeParameterAccessors = "0.2 - 0.3"
 
 ["0.2.2 - 0.2.10"]
@@ -81,5 +81,9 @@ MatrixAlgebraKit = "0.2"
 ["0.7.1 - 0"]
 MatrixAlgebraKit = "0.2.2 - 0.2"
 
-["0.7.5 - 0"]
+["0.7.5"]
 DerivableInterfaces = "0.5"
+
+["0.7.6 - 0"]
+DerivableInterfaces = "0.5.2 - 0.5"
+TypeParameterAccessors = "0.4"
