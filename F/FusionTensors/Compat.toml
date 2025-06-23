@@ -37,9 +37,14 @@ GradedArrays = "0.2.1 - 0.2"
 Accessors = "0.1.42 - 0.1"
 BlockArrays = "1.6.0 - 1"
 BlockSparseArrays = "0.7.4 - 0.7"
-GradedArrays = "0.4.7 - 0.4"
 LRUCache = "1.6.0 - 1"
 Strided = "2.3.0 - 2"
 TensorAlgebra = "0.3.8 - 0.3"
 TensorProducts = "0.1.7 - 0.1"
 TypeParameterAccessors = "0.4"
+
+["0.4.0"]
+GradedArrays = "0.4.7 - 0.4"
+
+["0.4.1 - 0"]
+GradedArrays = "0.4.13 - 0.4"
