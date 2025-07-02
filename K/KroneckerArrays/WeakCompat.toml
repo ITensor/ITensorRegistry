@@ -13,5 +13,8 @@ BlockSparseArrays = "0.7.19 - 0.7"
 ["0.1.19 - 0.1.20"]
 BlockSparseArrays = "0.7.20 - 0.7"
 
-["0.1.21 - 0"]
+["0.1.21"]
 BlockSparseArrays = "0.7.21 - 0.7"
+
+["0.1.22 - 0"]
+BlockSparseArrays = "0.7.22 - 0.7"
