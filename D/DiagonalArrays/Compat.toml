@@ -32,7 +32,7 @@ SparseArraysBase = "0.2.1 - 0.3"
 ["0.2.6 - 0.3.0"]
 SparseArraysBase = "0.4"
 
-["0.3.1 - 0"]
+["0.3.1 - 0.3.7"]
 SparseArraysBase = "0.5"
 
 ["0.3.2 - 0.3.6"]
@@ -40,3 +40,6 @@ DerivableInterfaces = "0.4"
 
 ["0.3.7 - 0"]
 DerivableInterfaces = "0.5"
+
+["0.3.8 - 0"]
+SparseArraysBase = "0.6"
