@@ -6,3 +6,6 @@ LabelledNumbers = "f856a3a6-4152-4ec4-b2a7-02c1a55d7993"
 
 ["0.3.9 - 0.3"]
 TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
+
+["0.9 - 0"]
+TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
