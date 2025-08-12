@@ -22,5 +22,9 @@ BlockSparseArrays = "0.7.22 - 0.7"
 ["0.1.24 - 0.1.25"]
 BlockSparseArrays = "0.8"
 
-["0.1.26 - 0"]
+["0.1.26"]
 BlockSparseArrays = "0.8.1 - 0.8"
+
+["0.1.27 - 0"]
+BlockSparseArrays = "0.9"
+TensorProducts = "0.1.7 - 0.1"
