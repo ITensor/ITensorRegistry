@@ -6,3 +6,6 @@ BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
 
 ["0.1.27 - 0"]
 TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
+
+["0.1.28 - 0"]
+TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
