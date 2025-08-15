@@ -15,12 +15,15 @@ DerivableInterfaces = "0.5"
 ["0.1.11 - 0"]
 Adapt = "4.3.0 - 4"
 
-["0.1.15 - 0"]
+["0.1.15 - 0.1.28"]
 MapBroadcast = "0.1.9 - 0.1"
 
 ["0.1.28 - 0"]
 DerivableInterfaces = "0.5.3 - 0.5"
 DiagonalArrays = "0.3.11 - 0.3"
+
+["0.1.29 - 0"]
+MapBroadcast = "0.1.10 - 0.1"
 
 ["0.1.4 - 0"]
 FillArrays = "1.13.0 - 1"
