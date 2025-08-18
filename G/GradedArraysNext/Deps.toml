@@ -1,3 +1,7 @@
-["0.1.1 - 0"]
+["0.1.1 - 0.1.2"]
 BlockSparseArrays = "2c9a651f-6452-4ace-a6ac-809f4280fbb4"
 KroneckerArrays = "05d0b138-81bc-4ff7-84be-08becefb1ccc"
+
+["0.1.3 - 0"]
+DiagonalArrays = "74fd4be6-21e2-4f6f-823a-4360d37c7a77"
+TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
