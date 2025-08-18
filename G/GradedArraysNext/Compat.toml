@@ -1,6 +1,11 @@
 [0]
 julia = "1.10.0 - 1"
 
-["0.1.1 - 0"]
+["0.1.1"]
 BlockSparseArrays = "0.8.1 - 0.8"
+
+["0.1.1 - 0"]
 KroneckerArrays = "0.1.26 - 0.1"
+
+["0.1.2 - 0"]
+BlockSparseArrays = "0.8.1 - 0.9"
