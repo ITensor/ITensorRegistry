@@ -1,5 +1,8 @@
 ["0.3.11"]
 TensorAlgebra = "0.3.10 - 0.3"
 
-["0.3.16 - 0"]
+["0.3.16"]
 MatrixAlgebraKit = "0.2"
+
+["0.3.17 - 0"]
+MatrixAlgebraKit = "0.2 - 0.3"
