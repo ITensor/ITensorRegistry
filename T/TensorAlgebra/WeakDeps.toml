@@ -1,2 +1,5 @@
 ["0 - 0.2.3"]
 GradedUnitRanges = "e2de450a-8a67-46c7-b59c-01d5a3d041c5"
+
+["0.3.13 - 0"]
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
