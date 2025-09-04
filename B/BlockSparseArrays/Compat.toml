@@ -11,6 +11,9 @@ julia = "1.10.0 - 1"
 ["0 - 0.1"]
 GPUArraysCore = "0.1"
 
+["0.10.2 - 0"]
+MatrixAlgebraKit = "0.2.2 - 0.3"
+
 ["0.2 - 0.2.1"]
 SparseArraysBase = "0.2"
 TypeParameterAccessors = "0.1"
@@ -78,7 +81,7 @@ MatrixAlgebraKit = "0.1.2 - 0.1"
 ["0.6 - 0.7.0"]
 MatrixAlgebraKit = "0.2"
 
-["0.7.1 - 0"]
+["0.7.1 - 0.10.1"]
 MatrixAlgebraKit = "0.2.2 - 0.2"
 
 ["0.7.11 - 0"]
