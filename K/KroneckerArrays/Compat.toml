@@ -4,6 +4,8 @@ julia = "1.10.0 - 1"
 
 ["0.1.1 - 0"]
 GPUArraysCore = "0.2"
+
+["0.1.1 - 0.1.30"]
 MatrixAlgebraKit = "0.2"
 
 ["0.1.1 - 0.1.9"]
@@ -24,6 +26,9 @@ DiagonalArrays = "0.3.11 - 0.3"
 
 ["0.1.29 - 0"]
 MapBroadcast = "0.1.10 - 0.1"
+
+["0.1.31 - 0"]
+MatrixAlgebraKit = "0.2 - 0.3"
 
 ["0.1.4 - 0"]
 FillArrays = "1.13.0 - 1"
