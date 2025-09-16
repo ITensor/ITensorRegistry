@@ -1,0 +1,3 @@
+name = "ITensorNetworksNext"
+uuid = "302f2e75-49f0-4526-aef7-d8ba550cb06c"
+repo = "https://github.com/ITensor/ITensorNetworksNext.jl"
