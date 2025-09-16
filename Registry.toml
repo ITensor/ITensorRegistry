@@ -10,6 +10,7 @@ description = "Private registry for unreleased or unfinished ITensors packages"
 1dc1fb26-a137-4954-ae60-1bd4106e95ad = { name = "ITensorInfiniteMPS", path = "I/ITensorInfiniteMPS" }
 2c2a8ec4-3cfc-4276-aa3e-1307b4294e58 = { name = "NestedPermutedDimsArrays", path = "N/NestedPermutedDimsArrays" }
 2c9a651f-6452-4ace-a6ac-809f4280fbb4 = { name = "BlockSparseArrays", path = "B/BlockSparseArrays" }
+302f2e75-49f0-4526-aef7-d8ba550cb06c = { name = "ITensorNetworksNext", path = "I/ITensorNetworksNext" }
 3ce3220d-c6cb-4fcd-b3c1-56d9c50edbe5 = { name = "NewPkg", path = "N/NewPkg" }
 3d388ab1-018a-49f4-ae50-18094d5f71ea = { name = "ITensorPkgSkeleton", path = "I/ITensorPkgSkeleton" }
 42b3faec-625b-4613-8ddc-352bf9672b8d = { name = "UnspecifiedTypes", path = "U/UnspecifiedTypes" }
