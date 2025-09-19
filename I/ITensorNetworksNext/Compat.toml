@@ -1,2 +1,15 @@
 [0]
 julia = "1.10.0 - 1"
+
+["0.1.1 - 0"]
+Adapt = "4.3.0 - 4"
+BackendSelection = "0.1.6 - 0.1"
+DataGraphs = "0.2.7 - 0.2"
+Dictionaries = "0.4.5 - 0.4"
+Graphs = "1.13.1 - 1"
+LinearAlgebra = "1.10.0 - 1"
+MacroTools = "0.5.16 - 0.5"
+NamedDimsArrays = "0.7.13 - 0.7"
+NamedGraphs = "0.6.9 - 0.6"
+SimpleTraits = "0.9.5 - 0.9"
+SplitApplyCombine = "1.2.3 - 1"
