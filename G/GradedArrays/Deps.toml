@@ -15,5 +15,8 @@ TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 ["0.2 - 0.4.7"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 
+["0.4.20 - 0"]
+ArrayLayouts = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
+
 ["0.4.4 - 0"]
 MatrixAlgebraKit = "6c742aac-3347-4629-af66-fc926824e5e4"
