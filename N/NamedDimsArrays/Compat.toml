@@ -60,8 +60,11 @@ TupleTools = "1.6.0 - 1"
 ["0.7 - 0.7.12"]
 TensorAlgebra = "0.3"
 
-["0.7.13 - 0"]
+["0.7.13 - 0.7.16"]
 TensorAlgebra = "0.3 - 0.4"
+
+["0.7.17 - 0"]
+TensorAlgebra = "0.4.1 - 0.4"
 
 ["0.7.6 - 0"]
 DerivableInterfaces = "0.5"
