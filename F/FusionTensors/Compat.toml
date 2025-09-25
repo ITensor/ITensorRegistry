@@ -67,8 +67,12 @@ BlockArrays = "1.7.0 - 1"
 ["0.5.6"]
 BlockSparseArrays = "0.8"
 
-["0.5.7 - 0"]
+["0.5.7 - 0.5.8"]
 BlockSparseArrays = "0.8 - 0.9"
 
-["0.5.8 - 0"]
+["0.5.8"]
 TensorAlgebra = "0.3.12 - 0.3"
+
+["0.5.9 - 0"]
+BlockSparseArrays = "0.10"
+TensorAlgebra = "0.4"
