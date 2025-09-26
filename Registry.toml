@@ -28,6 +28,7 @@ description = "Private registry for unreleased or unfinished ITensors packages"
 7e5a90cf-f82e-492e-a09b-e3e26432c138 = { name = "TypeParameterAccessors", path = "T/TypeParameterAccessors" }
 826dd319-6fd5-459a-a990-3a4f214664bf = { name = "QuantumOperatorDefinitions", path = "Q/QuantumOperatorDefinitions" }
 a07dfc7f-7d04-4eb5-84cc-a97f051f655a = { name = "Derive", path = "D/Derive" }
+ae191fcf-7ec6-40a6-95c9-dedb80b28f91 = { name = "PkgDependents", path = "P/PkgDependents" }
 bc96ca6e-b7c8-4bb6-888e-c93f838762c2 = { name = "GradedArrays", path = "G/GradedArrays" }
 be4d3e89-4dcc-4f34-a73c-076e5da60062 = { name = "TestPackage", path = "T/TestPackage" }
 c7a6d0f7-daa6-4368-ba67-89ed64127c3b = { name = "QuantumOperatorAlgebra", path = "Q/QuantumOperatorAlgebra" }
