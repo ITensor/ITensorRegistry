@@ -1,2 +1,5 @@
 [0]
 julia = "1.10.0 - 1"
+
+["0.1.1 - 0"]
+RegistryInstances = "0.1"
