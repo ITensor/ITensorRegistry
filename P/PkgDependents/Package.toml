@@ -1,0 +1,3 @@
+name = "PkgDependents"
+uuid = "ae191fcf-7ec6-40a6-95c9-dedb80b28f91"
+repo = "https://github.com/ITensor/PkgDependents.jl"
