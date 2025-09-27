@@ -51,10 +51,15 @@ TensorAlgebra = "0.3.2 - 0.3"
 
 ["0.4.23 - 0"]
 BlockSparseArrays = "0.10"
+
+["0.4.23 - 0.4.24"]
 MatrixAlgebraKit = "0.2 - 0.3"
 
 ["0.4.24 - 0"]
 TensorAlgebra = "0.3.2 - 0.4"
+
+["0.4.25 - 0"]
+MatrixAlgebraKit = "0.2 - 0.4"
 
 ["0.4.4"]
 BlockSparseArrays = "0.6.1 - 0.6"
