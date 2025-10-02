@@ -47,3 +47,7 @@ DerivableInterfaces = "0.5"
 
 ["0.5.11 - 0"]
 Adapt = "4.3.0 - 4"
+
+["0.7.4 - 0"]
+GPUArraysCore = "0.2"
+TypeParameterAccessors = "0.4.3 - 0.4"
