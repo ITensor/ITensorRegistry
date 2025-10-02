@@ -15,3 +15,6 @@ GradedArrays = "0.3"
 
 ["0.7.2 - 0"]
 GradedArrays = "0.4.1 - 0.4"
+
+["0.7.20 - 0"]
+SparseArraysBase = "0.7.5 - 0.7"
