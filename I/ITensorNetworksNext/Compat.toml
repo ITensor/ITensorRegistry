@@ -23,3 +23,7 @@ NamedGraphs = "0.6.9 - 0.7"
 
 ["0.1.5 - 0"]
 NamedDimsArrays = "0.8"
+
+["0.1.6 - 0"]
+TermInterface = "2"
+WrappedUnions = "0.3"
