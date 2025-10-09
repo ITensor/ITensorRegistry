@@ -23,3 +23,6 @@ TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
 
 ["0.4.4 - 0"]
 MatrixAlgebraKit = "6c742aac-3347-4629-af66-fc926824e5e4"
+
+["0.5 - 0"]
+TensorKitSectors = "13a9c161-d5da-41f0-bcbd-e1a08ae0647f"
