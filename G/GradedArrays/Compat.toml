@@ -78,3 +78,6 @@ BlockSparseArrays = "0.6.5 - 0.6"
 
 ["0.4.7 - 0.4.15"]
 BlockSparseArrays = "0.7"
+
+["0.5 - 0"]
+TensorKitSectors = "0.1 - 0.2"
