@@ -33,7 +33,10 @@ GradedArrays = "0.3"
 ["0.2.1 - 0.2.7"]
 NamedDimsArrays = "0.7"
 
-["0.2.2 - 0"]
+["0.2.10 - 0"]
+GradedArrays = "0.5"
+
+["0.2.2 - 0.2.9"]
 GradedArrays = "0.4"
 
 ["0.2.8 - 0"]
