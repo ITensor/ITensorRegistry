@@ -21,3 +21,6 @@ GradedArrays = "bc96ca6e-b7c8-4bb6-888e-c93f838762c2"
 
 ["0.5 - 0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.5.14 - 0"]
+TensorKitSectors = "13a9c161-d5da-41f0-bcbd-e1a08ae0647f"
