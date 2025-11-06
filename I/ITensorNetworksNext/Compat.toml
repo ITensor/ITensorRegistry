@@ -18,6 +18,9 @@ NamedGraphs = "0.6.9 - 0.6"
 ["0.1.1 - 0.1.4"]
 NamedDimsArrays = "0.7.13 - 0.7"
 
+["0.1.13 - 0"]
+DiagonalArrays = "0.3.23 - 0.3"
+
 ["0.1.3 - 0"]
 NamedGraphs = "0.6.9 - 0.7"
 
