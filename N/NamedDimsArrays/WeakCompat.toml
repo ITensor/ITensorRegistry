@@ -21,3 +21,6 @@ SparseArraysBase = "0.7.5 - 0.7"
 
 ["0.8.2 - 0"]
 GradedArrays = "0.4.1 - 0.5"
+
+["0.8.4 - 0"]
+AbstractTrees = "0.4.5 - 0.4"
