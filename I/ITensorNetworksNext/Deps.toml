@@ -23,3 +23,7 @@ AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 
 ["0.1.9 - 0"]
 TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
+
+["0.2 - 0"]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
