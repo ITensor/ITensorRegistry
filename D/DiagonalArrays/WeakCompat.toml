@@ -10,5 +10,8 @@ MatrixAlgebraKit = "0.2 - 0.3"
 ["0.3.21 - 0.3.22"]
 MatrixAlgebraKit = "0.2 - 0.4"
 
-["0.3.23 - 0"]
+["0.3.23"]
 MatrixAlgebraKit = "0.2 - 0.5"
+
+["0.3.24 - 0"]
+MatrixAlgebraKit = "0.2 - 0.6"
