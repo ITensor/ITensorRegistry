@@ -63,7 +63,7 @@ TensorAlgebra = "0.3"
 ["0.7.13 - 0.7.16"]
 TensorAlgebra = "0.3 - 0.4"
 
-["0.7.17 - 0"]
+["0.7.17 - 0.8.4"]
 TensorAlgebra = "0.4.1 - 0.4"
 
 ["0.7.6 - 0"]
@@ -74,3 +74,6 @@ TypeParameterAccessors = "0.4"
 
 ["0.8 - 0"]
 VectorInterface = "0.5"
+
+["0.8.5 - 0"]
+TensorAlgebra = "0.4.1 - 0.5"
