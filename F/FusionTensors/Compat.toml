@@ -68,6 +68,9 @@ GradedArrays = "0.4"
 GradedArrays = "0.5.2 - 0.5"
 TensorKitSectors = "0.1 - 0.2"
 
+["0.5.15 - 0"]
+TensorAlgebra = "0.5.1 - 0.5"
+
 ["0.5.3 - 0"]
 BlockArrays = "1.7.0 - 1"
 
@@ -82,4 +85,6 @@ TensorAlgebra = "0.3.12 - 0.3"
 
 ["0.5.9 - 0"]
 BlockSparseArrays = "0.10"
+
+["0.5.9 - 0.5.14"]
 TensorAlgebra = "0.4"
