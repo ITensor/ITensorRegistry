@@ -37,8 +37,10 @@ GradedArrays = "0.2.1 - 0.2"
 Accessors = "0.1.42 - 0.1"
 LRUCache = "1.6.0 - 1"
 Strided = "2.3.0 - 2"
-TensorProducts = "0.1.7 - 0.1"
 TypeParameterAccessors = "0.4"
+
+["0.4 - 0.5.16"]
+TensorProducts = "0.1.7 - 0.1"
 
 ["0.4 - 0.5.2"]
 BlockArrays = "1.6.0 - 1"
@@ -71,8 +73,11 @@ TensorKitSectors = "0.1 - 0.2"
 ["0.5.15"]
 TensorAlgebra = "0.5.1 - 0.5"
 
-["0.5.16 - 0"]
+["0.5.16"]
 TensorAlgebra = "0.5.2 - 0.5"
+
+["0.5.17 - 0"]
+TensorAlgebra = "0.6"
 
 ["0.5.3 - 0"]
 BlockArrays = "1.7.0 - 1"
