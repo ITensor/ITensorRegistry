@@ -1,48 +1,48 @@
 [0]
-ArrayLayouts = "1.10.4 - 1"
-EllipsisNotation = "1.8.0 - 1"
-LinearAlgebra = "1.10.0 - 1"
-TupleTools = "1.6.0 - 1"
-julia = "1.10.0 - 1"
+ArrayLayouts = "1.10.4-1"
+EllipsisNotation = "1.8.0-1"
+LinearAlgebra = "1.10.0-1"
+TupleTools = "1.6.0-1"
+julia = "1.10.0-1"
 
-["0 - 0.2.3"]
-BlockArrays = "1.2.0 - 1"
+["0-0.2.3"]
+BlockArrays = "1.2.0-1"
 
-["0.1.1 - 0.1.7"]
-TypeParameterAccessors = "0.2.1 - 0.2"
+["0.1.1-0.1.7"]
+TypeParameterAccessors = "0.2.1-0.2"
 
-["0.1.8 - 0.3.6"]
-TypeParameterAccessors = "0.2.1 - 0.3"
+["0.1.8-0.3.6"]
+TypeParameterAccessors = "0.2.1-0.3"
 
-["0.2.3 - 0.3.5"]
-MatrixAlgebraKit = "0.1.1 - 0.1"
+["0.2.3-0.3.5"]
+MatrixAlgebraKit = "0.1.1-0.1"
 
-["0.2.4 - 0.2"]
+["0.2.4-0.2"]
 TensorProducts = "0.1"
 
-["0.2.4 - 0.3.15"]
-BlockArrays = "1.5.0 - 1"
+["0.2.4-0.3.15"]
+BlockArrays = "1.5.0-1"
 
-["0.3 - 0.5"]
-TensorProducts = "0.1.5 - 0.1"
+["0.3-0.5"]
+TensorProducts = "0.1.5-0.1"
 
-["0.3.14 - 0.4.2"]
-MatrixAlgebraKit = "0.2 - 0.3"
+["0.3.14-0.4.2"]
+MatrixAlgebraKit = "0.2-0.3"
 
-["0.3.16 - 0"]
-BlockArrays = "1.7.2 - 1"
+["0.3.16-0"]
+BlockArrays = "1.7.2-1"
 
-["0.3.6 - 0.3.13"]
+["0.3.6-0.3.13"]
 MatrixAlgebraKit = "0.2"
 
-["0.3.7 - 0"]
-TypeParameterAccessors = "0.2.1 - 0.4"
+["0.3.7-0"]
+TypeParameterAccessors = "0.2.1-0.4"
 
-["0.4.3 - 0.4.4"]
-MatrixAlgebraKit = "0.2 - 0.4"
+["0.4.3-0.4.4"]
+MatrixAlgebraKit = "0.2-0.4"
 
 ["0.4.5"]
-MatrixAlgebraKit = "0.2 - 0.5"
+MatrixAlgebraKit = "0.2-0.5"
 
-["0.4.6 - 0"]
-MatrixAlgebraKit = "0.2 - 0.6"
+["0.4.6-0"]
+MatrixAlgebraKit = "0.2-0.6"
