@@ -10,19 +10,19 @@ TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
 TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 WignerSymbols = "9f57e263-0b3d-5e2e-b1be-24f2bb48858b"
 
-["0 - 0.2"]
+["0-0.2"]
 GradedUnitRanges = "e2de450a-8a67-46c7-b59c-01d5a3d041c5"
 LabelledNumbers = "f856a3a6-4152-4ec4-b2a7-02c1a55d7993"
 SymmetrySectors = "f8a8ad64-adbc-4fce-92f7-ffe2bb36a86e"
 
-["0 - 0.5.16"]
+["0-0.5.16"]
 TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
 
-["0.3 - 0"]
+["0.3-0"]
 GradedArrays = "bc96ca6e-b7c8-4bb6-888e-c93f838762c2"
 
-["0.5 - 0"]
+["0.5-0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.5.14 - 0"]
+["0.5.14-0"]
 TensorKitSectors = "13a9c161-d5da-41f0-bcbd-e1a08ae0647f"
