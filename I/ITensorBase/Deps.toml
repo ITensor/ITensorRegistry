@@ -1,33 +1,33 @@
 [0]
 NamedDimsArrays = "60cbd0c0-df58-4cb7-918c-6f5607b73fde"
 
-["0 - 0.1.1"]
+["0-0.1.1"]
 BroadcastMapConversion = "4a4adec5-520f-4750-bb37-d5e66b4ddeb2"
 
 ["0.1.1"]
 Derive = "a07dfc7f-7d04-4eb5-84cc-a97f051f655a"
 
-["0.1.1 - 0"]
+["0.1.1-0"]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 UnallocatedArrays = "43c9e47c-e622-40fb-bf18-a09fc8c466b6"
 UnspecifiedTypes = "42b3faec-625b-4613-8ddc-352bf9672b8d"
 
-["0.1.2 - 0"]
+["0.1.2-0"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 MapBroadcast = "ebd9b9da-f48d-417c-9660-449667d60261"
 
-["0.1.3 - 0"]
+["0.1.3-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
-["0.1.4 - 0"]
+["0.1.4-0"]
 VectorInterface = "409d34a3-91d5-4945-b6ec-7529ddf182d8"
 
-["0.2.12 - 0"]
+["0.2.12-0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.2.3 - 0"]
+["0.2.3-0"]
 TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
 
-["0.3.1 - 0"]
+["0.3.1-0"]
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"

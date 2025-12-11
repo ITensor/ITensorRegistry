@@ -1,35 +1,35 @@
-["0.1.11 - 0.1.22"]
-DiagonalArrays = "0.2.3 - 0.2"
+["0.1.11-0.1.22"]
+DiagonalArrays = "0.2.3-0.2"
 
-["0.1.14 - 0.1.19"]
-SparseArraysBase = "0.2.11 - 0.2"
+["0.1.14-0.1.19"]
+SparseArraysBase = "0.2.11-0.2"
 
-["0.1.15 - 0.1.26"]
-GradedUnitRanges = "0.1.4 - 0.1"
+["0.1.15-0.1.26"]
+GradedUnitRanges = "0.1.4-0.1"
 
-["0.1.20 - 0.1.21"]
-SparseArraysBase = "0.2.11 - 0.3"
+["0.1.20-0.1.21"]
+SparseArraysBase = "0.2.11-0.3"
 
-["0.1.22 - 0.1.23"]
+["0.1.22-0.1.23"]
 SparseArraysBase = "0.4"
 
-["0.1.23 - 0"]
+["0.1.23-0"]
 DiagonalArrays = "0.3"
 
-["0.1.24 - 0.2.8"]
+["0.1.24-0.2.8"]
 SparseArraysBase = "0.5"
 
-["0.1.27 - 0.1"]
+["0.1.27-0.1"]
 GradedUnitRanges = "0.2"
 
-["0.2 - 0.2.1"]
-GradedArrays = "0.2.1 - 0.2"
+["0.2-0.2.1"]
+GradedArrays = "0.2.1-0.2"
 
-["0.2.2 - 0.2.4"]
+["0.2.2-0.2.4"]
 GradedArrays = "0.3"
 
-["0.2.5 - 0.2"]
+["0.2.5-0.2"]
 GradedArrays = "0.4"
 
-["0.2.9 - 0"]
+["0.2.9-0"]
 SparseArraysBase = "0.7"
