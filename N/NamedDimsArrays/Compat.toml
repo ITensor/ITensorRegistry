@@ -1,82 +1,82 @@
 [0]
-Adapt = "4.1.1 - 4"
-LinearAlgebra = "1.10.0 - 1"
-Random = "1.10.0 - 1"
-julia = "1.10.0 - 1"
+Adapt = "4.1.1-4"
+LinearAlgebra = "1.10.0-1"
+Random = "1.10.0-1"
+julia = "1.10.0-1"
 
-["0 - 0.1"]
+["0-0.1"]
 BroadcastMapConversion = "0.1"
 NestedPermutedDimsArrays = "0.1"
 SparseArraysBase = "0.1"
 TypeParameterAccessors = "0.1"
 
-["0 - 0.5.2"]
+["0-0.5.2"]
 TensorAlgebra = "0.1"
 
-["0.2 - 0"]
-SimpleTraits = "0.9.4 - 0.9"
+["0.2-0"]
+SimpleTraits = "0.9.4-0.9"
 
-["0.2 - 0.3.3"]
-BroadcastMapConversion = "0.1.2 - 0.1"
-Derive = "0.3.6 - 0.3"
+["0.2-0.3.3"]
+BroadcastMapConversion = "0.1.2-0.1"
+Derive = "0.3.6-0.3"
 
-["0.2 - 0.4.2"]
+["0.2-0.4.2"]
 TypeParameterAccessors = "0.2"
 
-["0.3 - 0"]
-ArrayLayouts = "1.11.0 - 1"
+["0.3-0"]
+ArrayLayouts = "1.11.0-1"
 
-["0.3.4 - 0.3.5"]
-MapBroadcast = "0.1.5 - 0.1"
+["0.3.4-0.3.5"]
+MapBroadcast = "0.1.5-0.1"
 
-["0.3.4 - 0.5.5"]
-DerivableInterfaces = "0.3.7 - 0.3"
+["0.3.4-0.5.5"]
+DerivableInterfaces = "0.3.7-0.3"
 
-["0.3.6 - 0"]
-FillArrays = "1.13.0 - 1"
-MapBroadcast = "0.1.6 - 0.1"
+["0.3.6-0"]
+FillArrays = "1.13.0-1"
+MapBroadcast = "0.1.6-0.1"
 
-["0.4.3 - 0.7.6"]
-TypeParameterAccessors = "0.2 - 0.3"
+["0.4.3-0.7.6"]
+TypeParameterAccessors = "0.2-0.3"
 
-["0.4.5 - 0"]
-Compat = "4.16.0 - 4"
+["0.4.5-0"]
+Compat = "4.16.0-4"
 
-["0.5.3 - 0.6.1"]
+["0.5.3-0.6.1"]
 TensorAlgebra = "0.2"
 
-["0.5.6 - 0.7.5"]
+["0.5.6-0.7.5"]
 DerivableInterfaces = "0.4"
 
 ["0.6.2"]
-TensorAlgebra = "0.2.9 - 0.2"
+TensorAlgebra = "0.2.9-0.2"
 
-["0.6.3 - 0.6"]
-TensorAlgebra = "0.2.10 - 0.2"
+["0.6.3-0.6"]
+TensorAlgebra = "0.2.10-0.2"
 
-["0.7 - 0"]
-TupleTools = "1.6.0 - 1"
+["0.7-0"]
+TupleTools = "1.6.0-1"
 
-["0.7 - 0.7.12"]
+["0.7-0.7.12"]
 TensorAlgebra = "0.3"
 
-["0.7.13 - 0.7.16"]
-TensorAlgebra = "0.3 - 0.4"
+["0.7.13-0.7.16"]
+TensorAlgebra = "0.3-0.4"
 
-["0.7.17 - 0.8.4"]
-TensorAlgebra = "0.4.1 - 0.4"
+["0.7.17-0.8.4"]
+TensorAlgebra = "0.4.1-0.4"
 
-["0.7.6 - 0"]
+["0.7.6-0"]
 DerivableInterfaces = "0.5"
 
-["0.7.7 - 0"]
+["0.7.7-0"]
 TypeParameterAccessors = "0.4"
 
-["0.8 - 0"]
+["0.8-0"]
 VectorInterface = "0.5"
 
 ["0.8.5"]
-TensorAlgebra = "0.4.1 - 0.5"
+TensorAlgebra = "0.4.1-0.5"
 
-["0.8.6 - 0"]
-TensorAlgebra = "0.4.1 - 0.6"
+["0.8.6-0"]
+TensorAlgebra = "0.4.1-0.6"
