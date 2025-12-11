@@ -1,8 +1,11 @@
-["0.2 - 0.2.3"]
-TensorAlgebra = "0.2.7 - 0.2"
+["0.2-0.2.3"]
+TensorAlgebra = "0.2.7-0.2"
 
-["0.2.4 - 0.4.22"]
-TensorAlgebra = "0.3.2 - 0.3"
+["0.2.4-0.4.22"]
+TensorAlgebra = "0.3.2-0.3"
 
-["0.5 - 0"]
+["0.5-0"]
 SUNRepresentations = "0.3"
+
+["0.5.6-0"]
+NamedDimsArrays = "0.9"
