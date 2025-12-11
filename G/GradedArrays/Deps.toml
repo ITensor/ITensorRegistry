@@ -6,25 +6,25 @@ HalfIntegers = "f0d1745a-41c9-11e9-1dd9-e5d34d218721"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
 
-["0 - 0.5.4"]
+["0-0.5.4"]
 TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
 
-["0.2 - 0"]
+["0.2-0"]
 BlockSparseArrays = "2c9a651f-6452-4ace-a6ac-809f4280fbb4"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 
-["0.2 - 0.4.7"]
+["0.2-0.4.7"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 
-["0.4.20 - 0"]
+["0.4.20-0"]
 ArrayLayouts = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
 
-["0.4.23 - 0"]
+["0.4.23-0"]
 TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
 
-["0.4.4 - 0"]
+["0.4.4-0"]
 MatrixAlgebraKit = "6c742aac-3347-4629-af66-fc926824e5e4"
 
-["0.5 - 0"]
+["0.5-0"]
 TensorKitSectors = "13a9c161-d5da-41f0-bcbd-e1a08ae0647f"

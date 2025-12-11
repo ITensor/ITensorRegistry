@@ -1,94 +1,94 @@
 [0]
-Compat = "4.16.0 - 4"
-FillArrays = "1.13.0 - 1"
-HalfIntegers = "1.6.0 - 1"
-Random = "1.10.0 - 1"
-SplitApplyCombine = "1.2.3 - 1"
-julia = "1.10.0 - 1"
+Compat = "4.16.0-4"
+FillArrays = "1.13.0-1"
+HalfIntegers = "1.6.0-1"
+Random = "1.10.0-1"
+SplitApplyCombine = "1.2.3-1"
+julia = "1.10.0-1"
 
-["0 - 0.2.3"]
-BlockArrays = "1.5.0 - 1"
+["0-0.2.3"]
+BlockArrays = "1.5.0-1"
 
-["0 - 0.5.4"]
-TensorProducts = "0.1.3 - 0.1"
+["0-0.5.4"]
+TensorProducts = "0.1.3-0.1"
 
-["0.2 - 0"]
-LinearAlgebra = "1.10.0 - 1"
+["0.2-0"]
+LinearAlgebra = "1.10.0-1"
 
-["0.2 - 0.2.3"]
+["0.2-0.2.3"]
 BlockSparseArrays = "0.4"
 
-["0.2 - 0.4.7"]
-DerivableInterfaces = "0.4.4 - 0.4"
+["0.2-0.4.7"]
+DerivableInterfaces = "0.4.4-0.4"
 
-["0.2 - 0.4.9"]
-TypeParameterAccessors = "0.3.9 - 0.3"
+["0.2-0.4.9"]
+TypeParameterAccessors = "0.3.9-0.3"
 
-["0.2.4 - 0"]
-BlockArrays = "1.6.0 - 1"
+["0.2.4-0"]
+BlockArrays = "1.6.0-1"
 
-["0.2.4 - 0.3"]
-BlockSparseArrays = "0.4.2 - 0.4"
+["0.2.4-0.3"]
+BlockSparseArrays = "0.4.2-0.4"
 
-["0.4 - 0.4.2"]
+["0.4-0.4.2"]
 BlockSparseArrays = "0.5"
 
-["0.4.10 - 0"]
+["0.4.10-0"]
 TypeParameterAccessors = "0.4"
 
-["0.4.16 - 0.4.18"]
+["0.4.16-0.4.18"]
 BlockSparseArrays = "0.8"
 
-["0.4.19 - 0.4.20"]
-BlockSparseArrays = ["0.8", "0.9.3 - 0.9"]
+["0.4.19-0.4.20"]
+BlockSparseArrays = ["0.8", "0.9.3-0.9"]
 
-["0.4.20 - 0"]
+["0.4.20-0"]
 ArrayLayouts = "1"
 
-["0.4.21 - 0.4.22"]
-BlockSparseArrays = "0.9.5 - 0.9"
+["0.4.21-0.4.22"]
+BlockSparseArrays = "0.9.5-0.9"
 
 ["0.4.23"]
-TensorAlgebra = "0.3.2 - 0.3"
+TensorAlgebra = "0.3.2-0.3"
 
-["0.4.23 - 0"]
+["0.4.23-0"]
 BlockSparseArrays = "0.10"
 
-["0.4.23 - 0.4.24"]
-MatrixAlgebraKit = "0.2 - 0.3"
+["0.4.23-0.4.24"]
+MatrixAlgebraKit = "0.2-0.3"
 
-["0.4.24 - 0.5.3"]
-TensorAlgebra = "0.3.2 - 0.4"
+["0.4.24-0.5.3"]
+TensorAlgebra = "0.3.2-0.4"
 
 ["0.4.25"]
-MatrixAlgebraKit = "0.2 - 0.4"
+MatrixAlgebraKit = "0.2-0.4"
 
-["0.4.26 - 0.5.2"]
-MatrixAlgebraKit = "0.2 - 0.5"
+["0.4.26-0.5.2"]
+MatrixAlgebraKit = "0.2-0.5"
 
 ["0.4.4"]
-BlockSparseArrays = "0.6.1 - 0.6"
+BlockSparseArrays = "0.6.1-0.6"
 
-["0.4.4 - 0.4.22"]
+["0.4.4-0.4.22"]
 MatrixAlgebraKit = "0.2"
 
 ["0.4.5"]
-BlockSparseArrays = "0.6.2 - 0.6"
+BlockSparseArrays = "0.6.2-0.6"
 
 ["0.4.6"]
-BlockSparseArrays = "0.6.5 - 0.6"
+BlockSparseArrays = "0.6.5-0.6"
 
-["0.4.7 - 0.4.15"]
+["0.4.7-0.4.15"]
 BlockSparseArrays = "0.7"
 
-["0.5 - 0"]
-TensorKitSectors = "0.1 - 0.2"
+["0.5-0"]
+TensorKitSectors = "0.1-0.2"
 
-["0.5.3 - 0"]
+["0.5.3-0"]
 MatrixAlgebraKit = "0.6"
 
 ["0.5.4"]
 TensorAlgebra = "0.5"
 
-["0.5.5 - 0"]
-TensorAlgebra = "0.6.2 - 0.6"
+["0.5.5-0"]
+TensorAlgebra = "0.6.2-0.6"
