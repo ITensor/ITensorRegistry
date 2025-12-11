@@ -1,14 +1,14 @@
-["0.3 - 0"]
+["0.3-0"]
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
 
-["0.4.1 - 0.5"]
+["0.4.1-0.5"]
 GradedUnitRanges = "e2de450a-8a67-46c7-b59c-01d5a3d041c5"
 
-["0.6 - 0"]
+["0.6-0.8"]
 GradedArrays = "bc96ca6e-b7c8-4bb6-888e-c93f838762c2"
 
-["0.7.20 - 0"]
+["0.7.20-0"]
 SparseArraysBase = "0d5efcca-f356-4864-8770-e1ed8d78f208"
 
-["0.8.4 - 0"]
+["0.8.4-0"]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
