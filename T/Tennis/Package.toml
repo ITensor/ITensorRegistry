@@ -1,0 +1,3 @@
+name = "Tennis"
+uuid = "1113fa09-e660-4d5c-afd9-bd16691d8c30"
+repo = "git@github.com:ITensor/Tennis.jl.git"
