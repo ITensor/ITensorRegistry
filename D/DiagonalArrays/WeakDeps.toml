@@ -1,5 +1,8 @@
 ["0.3.11"]
 TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
 
-["0.3.16 - 0"]
+["0.3.16-0"]
 MatrixAlgebraKit = "6c742aac-3347-4629-af66-fc926824e5e4"
+
+["0.3.25-0"]
+NamedDimsArrays = "60cbd0c0-df58-4cb7-918c-6f5607b73fde"

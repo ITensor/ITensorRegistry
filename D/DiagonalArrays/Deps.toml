@@ -2,24 +2,24 @@
 ArrayLayouts = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
 SparseArraysBase = "0d5efcca-f356-4864-8770-e1ed8d78f208"
 
-["0 - 0.1"]
+["0-0.1"]
 NestedPermutedDimsArrays = "2c2a8ec4-3cfc-4276-aa3e-1307b4294e58"
 
-["0 - 0.2.0"]
+["0-0.2.0"]
 BroadcastMapConversion = "4a4adec5-520f-4750-bb37-d5e66b4ddeb2"
 TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 
 ["0.2.0"]
 Derive = "a07dfc7f-7d04-4eb5-84cc-a97f051f655a"
 
-["0.2.1 - 0"]
+["0.2.1-0"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 
-["0.2.2 - 0"]
+["0.2.2-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
-["0.2.3 - 0"]
+["0.2.3-0"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
-["0.3.15 - 0"]
+["0.3.15-0"]
 MapBroadcast = "ebd9b9da-f48d-417c-9660-449667d60261"
