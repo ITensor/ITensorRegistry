@@ -1,5 +1,8 @@
-["0.7.10-0"]
+["0.7.10"]
 NamedDimsArrays = "0.10"
+
+["0.7.11-0"]
+NamedDimsArrays = "0.11"
 
 ["0.7.8-0"]
 TensorAlgebra = "0.6.2-0.6"
