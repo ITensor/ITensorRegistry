@@ -13,6 +13,9 @@ TypeParameterAccessors = "0.1"
 ["0-0.5.2"]
 TensorAlgebra = "0.1"
 
+["0.12-0"]
+FunctionImplementations = "0.3"
+
 ["0.2-0"]
 SimpleTraits = "0.9.4-0.9"
 
@@ -66,7 +69,7 @@ TensorAlgebra = "0.3-0.4"
 ["0.7.17-0.8.4"]
 TensorAlgebra = "0.4.1-0.4"
 
-["0.7.6-0"]
+["0.7.6-0.11"]
 DerivableInterfaces = "0.5"
 
 ["0.7.7-0"]
