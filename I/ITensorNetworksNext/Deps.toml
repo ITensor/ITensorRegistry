@@ -26,7 +26,12 @@ TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 
 ["0.2-0"]
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+
+["0.2-0.3.1"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 
 ["0.3-0"]
 AlgorithmsInterface = "d1e3940c-cd12-4505-8585-b0a4b322527d"
+
+["0.3.2-0"]
+FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
