@@ -12,7 +12,7 @@ TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 ["0.2.0"]
 Derive = "a07dfc7f-7d04-4eb5-84cc-a97f051f655a"
 
-["0.2.1-0"]
+["0.2.1-0.3.26"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 
 ["0.2.2-0"]
@@ -23,3 +23,6 @@ FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
 ["0.3.15-0"]
 MapBroadcast = "ebd9b9da-f48d-417c-9660-449667d60261"
+
+["0.3.27-0"]
+FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
