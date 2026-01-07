@@ -19,5 +19,8 @@ MatrixAlgebraKit = "0.2-0.6"
 ["0.3.25"]
 NamedDimsArrays = "0.10"
 
-["0.3.26-0"]
+["0.3.26"]
 NamedDimsArrays = "0.10-0.11"
+
+["0.3.27-0"]
+NamedDimsArrays = "0.12"

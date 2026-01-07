@@ -35,10 +35,10 @@ SparseArraysBase = "0.4"
 ["0.3.1-0.3.7"]
 SparseArraysBase = "0.5"
 
-["0.3.10-0"]
+["0.3.10-0.3.26"]
 SparseArraysBase = "0.7.2-0.7"
 
-["0.3.13-0"]
+["0.3.13-0.3.26"]
 DerivableInterfaces = "0.5.5-0.5"
 
 ["0.3.15-0"]
@@ -46,6 +46,10 @@ MapBroadcast = "0.1.10-0.1"
 
 ["0.3.2-0.3.6"]
 DerivableInterfaces = "0.4"
+
+["0.3.27-0"]
+FunctionImplementations = "0.3.1-0.3"
+SparseArraysBase = "0.8.1-0.8"
 
 ["0.3.7-0.3.12"]
 DerivableInterfaces = "0.5"
