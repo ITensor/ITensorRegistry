@@ -20,11 +20,11 @@ Adapt = "4.3.0-4"
 ["0.1.15-0.1.28"]
 MapBroadcast = "0.1.9-0.1"
 
-["0.1.28-0"]
-DerivableInterfaces = "0.5.3-0.5"
-
 ["0.1.28-0.1"]
 DiagonalArrays = "0.3.11-0.3"
+
+["0.1.28-0.3.6"]
+DerivableInterfaces = "0.5.3-0.5"
 
 ["0.1.29-0"]
 MapBroadcast = "0.1.10-0.1"
@@ -50,3 +50,6 @@ MatrixAlgebraKit = "0.2-0.5"
 
 ["0.3.1-0"]
 MatrixAlgebraKit = "0.6"
+
+["0.3.7-0"]
+FunctionImplementations = "0.3.1-0.3"

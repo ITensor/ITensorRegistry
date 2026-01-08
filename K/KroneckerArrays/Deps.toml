@@ -2,9 +2,11 @@
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.1.1-0"]
-DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
 MatrixAlgebraKit = "6c742aac-3347-4629-af66-fc926824e5e4"
+
+["0.1.1-0.3.6"]
+DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
 
 ["0.1.11-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
@@ -20,3 +22,6 @@ DiagonalArrays = "74fd4be6-21e2-4f6f-823a-4360d37c7a77"
 
 ["0.2-0"]
 TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
+
+["0.3.7-0"]
+FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
