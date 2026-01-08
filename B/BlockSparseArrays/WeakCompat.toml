@@ -1,32 +1,32 @@
 ["0.10.12"]
 TensorAlgebra = "0.5"
 
-["0.10.13 - 0.10.14"]
+["0.10.13-0.10.14"]
 TensorAlgebra = "0.6"
 
-["0.10.15 - 0"]
-TensorAlgebra = "0.6.2 - 0.6"
+["0.10.15-0"]
+TensorAlgebra = "0.6.2-0.6"
 
-["0.10.4 - 0.10.11"]
-TensorAlgebra = "0.3 - 0.4"
+["0.10.4-0.10.11"]
+TensorAlgebra = "0.3-0.4"
 
-["0.2 - 0.2.23"]
+["0.2-0.2.23"]
 TensorAlgebra = "0.1"
 
-["0.2 - 0.3.8"]
+["0.2-0.3.8"]
 LabelledNumbers = "0.1"
 
-["0.2.24 - 0.3.8"]
-TensorAlgebra = "0.1 - 0.2"
+["0.2.24-0.3.8"]
+TensorAlgebra = "0.1-0.2"
 
-["0.3.9 - 0.3"]
-TensorProducts = "0.1.2 - 0.1"
+["0.3.9-0.3"]
+TensorProducts = "0.1.2-0.1"
 
-["0.3.9 - 0.4.1"]
-TensorAlgebra = "0.2.4 - 0.2"
+["0.3.9-0.4.1"]
+TensorAlgebra = "0.2.4-0.2"
 
-["0.4.2 - 0.10.3"]
-TensorAlgebra = "0.3.2 - 0.3"
+["0.4.2-0.10.3"]
+TensorAlgebra = "0.3.2-0.3"
 
-["0.9 - 0.10.12"]
-TensorProducts = "0.1.7 - 0.1"
+["0.9-0.10.12"]
+TensorProducts = "0.1.7-0.1"

@@ -1,112 +1,116 @@
 [0]
-Adapt = "4.1.1 - 4"
-ArrayLayouts = "1.10.4 - 1"
-BlockArrays = "1.2.0 - 1"
-Dictionaries = "0.4.3 - 0.4"
-LinearAlgebra = "1.10.0 - 1"
-MacroTools = "0.5.13 - 0.5"
-SplitApplyCombine = "1.2.3 - 1"
-julia = "1.10.0 - 1"
+Adapt = "4.1.1-4"
+ArrayLayouts = "1.10.4-1"
+BlockArrays = "1.2.0-1"
+Dictionaries = "0.4.3-0.4"
+LinearAlgebra = "1.10.0-1"
+MacroTools = "0.5.13-0.5"
+SplitApplyCombine = "1.2.3-1"
+julia = "1.10.0-1"
 
-["0 - 0.1"]
+["0-0.1"]
 GPUArraysCore = "0.1"
 
-["0.10.11 - 0"]
+["0.10.11-0"]
 MatrixAlgebraKit = "0.6"
 
-["0.10.2 - 0.10.4"]
-MatrixAlgebraKit = "0.2.2 - 0.3"
+["0.10.16-0"]
+FunctionImplementations = "0.3.1-0.3"
+SparseArraysBase = "0.8.3-0.8"
 
-["0.10.5 - 0.10.7"]
-MatrixAlgebraKit = "0.2.2 - 0.4"
+["0.10.2-0.10.4"]
+MatrixAlgebraKit = "0.2.2-0.3"
 
-["0.10.8 - 0.10.10"]
+["0.10.5-0.10.7"]
+MatrixAlgebraKit = "0.2.2-0.4"
+
+["0.10.8-0.10.10"]
 MatrixAlgebraKit = "0.5"
 
-["0.2 - 0.2.1"]
+["0.2-0.2.1"]
 SparseArraysBase = "0.2"
 TypeParameterAccessors = "0.1"
 
-["0.2 - 0.2.2"]
-Derive = "0.3.1 - 0.3"
+["0.2-0.2.2"]
+Derive = "0.3.1-0.3"
 
-["0.2 - 0.3.8"]
+["0.2-0.3.8"]
 GradedUnitRanges = "0.1"
 
-["0.2.10 - 0"]
-GPUArraysCore = "0.1 - 0.2"
+["0.2.10-0"]
+GPUArraysCore = "0.1-0.2"
 
-["0.2.11 - 0.2.26"]
-SparseArraysBase = "0.2.10 - 0.2"
+["0.2.11-0.2.26"]
+SparseArraysBase = "0.2.10-0.2"
 
-["0.2.15 - 0.7.5"]
-TypeParameterAccessors = "0.2 - 0.3"
+["0.2.15-0.7.5"]
+TypeParameterAccessors = "0.2-0.3"
 
-["0.2.2 - 0.2.10"]
-SparseArraysBase = "0.2.2 - 0.2"
+["0.2.2-0.2.10"]
+SparseArraysBase = "0.2.2-0.2"
 
-["0.2.2 - 0.2.14"]
+["0.2.2-0.2.14"]
 TypeParameterAccessors = "0.2"
 
-["0.2.27 - 0.3.0"]
+["0.2.27-0.3.0"]
 SparseArraysBase = "0.3"
 
-["0.2.3 - 0"]
-MapBroadcast = "0.1.5 - 0.1"
+["0.2.3-0"]
+MapBroadcast = "0.1.5-0.1"
 
-["0.2.3 - 0.2.6"]
-DerivableInterfaces = "0.3.7 - 0.3"
+["0.2.3-0.2.6"]
+DerivableInterfaces = "0.3.7-0.3"
 
-["0.2.4 - 0"]
-FillArrays = "1.13.0 - 1"
+["0.2.4-0"]
+FillArrays = "1.13.0-1"
 
-["0.2.8 - 0.3.2"]
-DiagonalArrays = "0.2.2 - 0.2"
+["0.2.8-0.3.2"]
+DiagonalArrays = "0.2.2-0.2"
 
-["0.2.8 - 0.3.5"]
-DerivableInterfaces = "0.3.8 - 0.3"
+["0.2.8-0.3.5"]
+DerivableInterfaces = "0.3.8-0.3"
 
 ["0.3.1"]
-SparseArraysBase = "0.3.2 - 0.3"
+SparseArraysBase = "0.3.2-0.3"
 
-["0.3.2 - 0.3.4"]
+["0.3.2-0.3.4"]
 SparseArraysBase = "0.4"
 
-["0.3.3 - 0"]
+["0.3.3-0"]
 DiagonalArrays = "0.3"
 
-["0.3.5 - 0.7"]
+["0.3.5-0.7"]
 SparseArraysBase = "0.5"
 
-["0.3.6 - 0.7.4"]
+["0.3.6-0.7.4"]
 DerivableInterfaces = "0.4"
 
-["0.3.9 - 0.3"]
-GradedUnitRanges = "0.2.2 - 0.2"
+["0.3.9-0.3"]
+GradedUnitRanges = "0.2.2-0.2"
 
 ["0.5"]
-MatrixAlgebraKit = "0.1.2 - 0.1"
+MatrixAlgebraKit = "0.1.2-0.1"
 
-["0.6 - 0.7.0"]
+["0.6-0.7.0"]
 MatrixAlgebraKit = "0.2"
 
-["0.7.1 - 0.10.1"]
-MatrixAlgebraKit = "0.2.2 - 0.2"
+["0.7.1-0.10.1"]
+MatrixAlgebraKit = "0.2.2-0.2"
 
-["0.7.11 - 0"]
-TypeParameterAccessors = "0.4.1 - 0.4"
+["0.7.11-0"]
+TypeParameterAccessors = "0.4.1-0.4"
 
 ["0.7.5"]
 DerivableInterfaces = "0.5"
 
-["0.7.6 - 0.7.9"]
+["0.7.6-0.7.9"]
 TypeParameterAccessors = "0.4"
 
-["0.7.6 - 0.9.0"]
-DerivableInterfaces = "0.5.2 - 0.5"
+["0.7.6-0.9.0"]
+DerivableInterfaces = "0.5.2-0.5"
 
-["0.8 - 0"]
-SparseArraysBase = "0.7.1 - 0.7"
+["0.8-0.10.15"]
+SparseArraysBase = "0.7.1-0.7"
 
-["0.9.1 - 0"]
-DerivableInterfaces = "0.5.3 - 0.5"
+["0.9.1-0.10.15"]
+DerivableInterfaces = "0.5.3-0.5"
