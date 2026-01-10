@@ -4,3 +4,6 @@ LinearAlgebra = "1.10.0-1"
 ["0.3.1-0"]
 BlockArrays = "1.4.0-1"
 FillArrays = "1.15.0-1"
+
+["0.3.2-0"]
+StridedViews = "0.4.1-0.4"
