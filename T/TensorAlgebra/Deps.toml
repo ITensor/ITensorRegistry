@@ -13,3 +13,7 @@ MatrixAlgebraKit = "6c742aac-3347-4629-af66-fc926824e5e4"
 
 ["0.2.4-0.5"]
 TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
+
+["0.6.7-0"]
+FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
+Strided = "5e0ebb24-38b0-5f93-81fe-25c709ecae67"

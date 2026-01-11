@@ -3,3 +3,6 @@ GradedUnitRanges = "0.1"
 
 ["0.3.13-0"]
 TensorOperations = "5"
+
+["0.6.7-0"]
+GPUArraysCore = "0.2"
