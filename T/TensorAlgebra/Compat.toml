@@ -47,10 +47,13 @@ MatrixAlgebraKit = "0.2-0.5"
 ["0.4.6-0"]
 MatrixAlgebraKit = "0.2-0.6"
 
+["0.6.10-0"]
+FunctionImplementations = "0.3.1-0.4"
+
 ["0.6.7"]
 Strided = "2.3.2-2"
 
-["0.6.7-0"]
+["0.6.7-0.6.9"]
 FunctionImplementations = "0.3.1-0.3"
 
 ["0.6.8-0"]
