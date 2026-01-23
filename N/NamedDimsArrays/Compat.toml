@@ -19,11 +19,14 @@ FunctionImplementations = "0.3"
 ["0.13.1"]
 TensorAlgebra = "0.6.7-0.6"
 
-["0.13.2-0"]
+["0.13.2-0.13.5"]
 TensorAlgebra = "0.6.9-0.6"
 
 ["0.13.3-0"]
 FunctionImplementations = "0.4"
+
+["0.13.6-0"]
+TensorAlgebra = "0.6.12-0.6"
 
 ["0.2-0"]
 SimpleTraits = "0.9.4-0.9"
