@@ -4,8 +4,11 @@ GradedUnitRanges = "0.1"
 ["0.3.13-0"]
 TensorOperations = "5"
 
-["0.6.12-0"]
+["0.6.12-0.6.13"]
 Mooncake = "0.4.202-0.4"
+
+["0.6.14-0"]
+Mooncake = "0.4.202-0.5"
 
 ["0.6.7-0"]
 GPUArraysCore = "0.2"
