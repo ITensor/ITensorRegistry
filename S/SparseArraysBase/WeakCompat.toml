@@ -4,11 +4,15 @@ NamedDimsArrays = "0.10"
 ["0.7.11-0.7"]
 NamedDimsArrays = "0.11"
 
-["0.7.8-0"]
+["0.7.8-0.9.0"]
 TensorAlgebra = "0.6.2-0.6"
 
 ["0.8-0.8.3"]
 NamedDimsArrays = "0.12"
 
-["0.8.4-0"]
+["0.8.4-0.9.0"]
 NamedDimsArrays = "0.13"
+
+["0.9.1-0"]
+NamedDimsArrays = "0.13-0.14"
+TensorAlgebra = "0.6.2-0.7"
