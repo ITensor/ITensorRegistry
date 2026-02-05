@@ -4,8 +4,11 @@ TensorAlgebra = "0.5"
 ["0.10.13-0.10.14"]
 TensorAlgebra = "0.6"
 
-["0.10.15-0"]
+["0.10.15-0.10.18"]
 TensorAlgebra = "0.6.2-0.6"
+
+["0.10.19-0"]
+TensorAlgebra = "0.6.2-0.7"
 
 ["0.10.4-0.10.11"]
 TensorAlgebra = "0.3-0.4"
