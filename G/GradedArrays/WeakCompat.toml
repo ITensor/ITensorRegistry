@@ -21,3 +21,6 @@ NamedDimsArrays = "0.9-0.10"
 
 ["0.5.9"]
 NamedDimsArrays = "0.9-0.11"
+
+["0.6.1-0"]
+NamedDimsArrays = "0.13-0.14"
