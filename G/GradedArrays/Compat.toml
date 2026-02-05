@@ -96,5 +96,10 @@ TensorAlgebra = "0.6.2-0.6"
 ["0.6-0"]
 KroneckerArrays = "0.3"
 SparseArraysBase = "0.9"
-TensorAlgebra = "0.6"
 TensorKitSectors = "0.3"
+
+["0.6.0"]
+TensorAlgebra = "0.6"
+
+["0.6.1-0"]
+TensorAlgebra = "0.6-0.7"
