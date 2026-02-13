@@ -1,0 +1,3 @@
+name = "MassApplyPatch"
+uuid = "a374f348-d733-473a-88bc-8a13261ed0c1"
+repo = "https://github.com/ITensor/MassApplyPatch.jl"
