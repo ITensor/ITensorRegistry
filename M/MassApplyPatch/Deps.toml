@@ -1,0 +1,5 @@
+["0.2-0"]
+Git = "d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2"
+GitHub = "bc5e4493-9b4d-5f90-b8aa-2b2bcaad7a26"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
