@@ -1,114 +1,133 @@
-# .github/workflows/automerge-minimal.yml
-name: Auto-merge "New version" PRs (minimal)
+name: Auto-merge registrator PRs after 10 minutes
 
 on:
-  schedule:
-    # GitHub’s shortest schedule interval is 5 minutes.
-    - cron: "*/5 * * * *"
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review]
+  issue_comment:
+    types: [created]
   workflow_dispatch:
 
 permissions:
-  contents: write
   pull-requests: write
+  contents: write
+  issues: read
+
+concurrency:
+  group: timed-automerge-${{ github.event.pull_request.number || github.event.issue.number || github.run_id }}
+  cancel-in-progress: true
 
 jobs:
-  automerge:
+  merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Merge eligible PRs
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: "1"
+      - uses: julia-actions/cache@v2
+
+      - name: Merge after 10 minutes (if PR matches format)
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
 
-          # --- policy knobs ---
           MIN_AGE_MINUTES: "10"
-          ALLOWED_AUTHORS: "mtfishman" # comma-separated; leave empty to allow anyone
-          HEAD_PREFIX: "registrator/"  # optional extra guard; set "" to disable
 
-          # Match titles like: "New version: SparseArraysBase v0.9.7"
+          # Optional extra guard; set "" to disable
+          HEAD_PREFIX: "registrator/"
+
+          # Format guards
           TITLE_REGEX: '^New version:\s+.+\sv[0-9]'
+          COMMIT_REGEX: '(?m)^Commit:\s*[0-9a-f]{7,40}\s*$'
 
-          # Match initial author comment like: "Commit: <sha>"
-          COMMIT_REGEX: '^Commit:\s*[0-9a-f]{7,40}\s*$'
-
-          # merge | squash | rebase
+          # squash | merge | rebase
           MERGE_METHOD: "squash"
+
+          # best-effort delete the PR branch after merging
+          DELETE_BRANCH: "true"
         run: |
-          set -euo pipefail
+          julia <<'JL'
+          using Dates
 
-          python - <<'PY'
-          import json, os, re, subprocess
-          from datetime import datetime, timezone, timedelta
+          # JSON3 only used to read GitHub event + API JSON
+          try
+            using JSON3
+          catch
+            import Pkg
+            Pkg.add("JSON3")
+            using JSON3
+          end
 
-          repo = os.environ["REPO"]
-          allowed_authors = {a.strip() for a in os.environ.get("ALLOWED_AUTHORS","").split(",") if a.strip()}
-          min_age = timedelta(minutes=int(os.environ.get("MIN_AGE_MINUTES","10")))
-          title_re = re.compile(os.environ["TITLE_REGEX"])
-          commit_re = re.compile(os.environ["COMMIT_REGEX"], re.MULTILINE)
-          head_prefix = os.environ.get("HEAD_PREFIX","")
-          merge_method = os.environ.get("MERGE_METHOD","squash")
+          repo = ENV["REPO"]
+          ev   = get(ENV, "GITHUB_EVENT_NAME", "")
+          event = JSON3.read(read(ENV["GITHUB_EVENT_PATH"], String))
 
-          def gh_json(cmd):
-              out = subprocess.check_output(cmd, text=True)
-              return json.loads(out) if out.strip() else None
+          pr = if ev == "pull_request_target"
+            Int(event["pull_request"]["number"])
+          elseif ev == "issue_comment" && haskey(event["issue"], "pull_request")
+            Int(event["issue"]["number"])
+          else
+            println("No PR context; exiting.")
+            exit(0)
+          end
 
-          prs = gh_json([
-              "gh","pr","list","-R",repo,"--state","open","--limit","100",
-              "--json","number,title,createdAt,headRefName,baseRefName,isDraft,mergeable,author"
-          ]) or []
+          head_prefix  = get(ENV, "HEAD_PREFIX", "")
+          title_re     = Regex(get(ENV, "TITLE_REGEX", "^New version:"))
+          commit_re    = Regex(get(ENV, "COMMIT_REGEX", "(?m)^Commit:"))
+          min_age      = Minute(parse(Int, get(ENV, "MIN_AGE_MINUTES", "10")))
+          merge_method = get(ENV, "MERGE_METHOD", "squash")
+          delete_branch = get(ENV, "DELETE_BRANCH", "true") == "true"
 
-          now = datetime.now(timezone.utc)
-          eligible = []
+          ghjson(cmd::Cmd) = JSON3.read(read(cmd, String))
 
-          for pr in prs:
-              if pr.get("isDraft"):
-                  continue
-              if pr.get("baseRefName") != "main":
-                  continue
+          function eligible(prj)
+            prj["state"] == "open" || return false
+            prj["draft"] == true && return false
+            prj["base"]["ref"] == "main" || return false
+            prj["head"]["repo"]["full_name"] == repo || return false
+            !isempty(head_prefix) && !startswith(String(prj["head"]["ref"]), head_prefix) && return false
+            occursin(title_re, String(prj["title"])) || return false
+            return true
+          end
 
-              author = (pr.get("author") or {}).get("login","")
-              if allowed_authors and author not in allowed_authors:
-                  continue
+          function first_comment_has_commit()
+            cs = collect(ghjson(`gh api repos/$repo/issues/$pr/comments?per_page=100`))
+            isempty(cs) && return false
+            sort!(cs, by = c -> String(c["created_at"])) # ISO timestamps sort correctly
+            return occursin(commit_re, String(cs[1]["body"]))
+          end
 
-              if head_prefix and not (pr.get("headRefName") or "").startswith(head_prefix):
-                  continue
+          prj = ghjson(`gh api repos/$repo/pulls/$pr`)
+          eligible(prj) || (println("PR #$pr not eligible; exiting."); exit(0))
+          first_comment_has_commit() || (println("PR #$pr missing initial Commit: comment; exiting."); exit(0))
 
-              title = pr.get("title") or ""
-              if not title_re.search(title):
-                  continue
+          created = replace(String(prj["created_at"]), "Z" => "")
+          created = split(created, ".")[1]
+          created_dt = DateTime(created, dateformat"yyyy-mm-ddTHH:MM:SS")
 
-              created_at = datetime.fromisoformat(pr["createdAt"].replace("Z","+00:00"))
-              if now - created_at < min_age:
-                  continue
+          target = created_dt + min_age
+          nowdt  = now()
+          if nowdt < target
+            s = ceil(Int, Dates.value(target - nowdt) / 1000)
+            println("Waiting $s seconds...")
+            sleep(s)
+          end
 
-              if pr.get("mergeable") == "CONFLICTING":
-                  continue
+          # Re-check right before merge
+          prj = ghjson(`gh api repos/$repo/pulls/$pr`)
+          eligible(prj) || (println("PR #$pr no longer eligible; exiting."); exit(0))
+          first_comment_has_commit() || (println("PR #$pr no longer matches comment rule; exiting."); exit(0))
 
-              n = pr["number"]
-              comments = gh_json(["gh","api",f"repos/{repo}/issues/{n}/comments?per_page=100"]) or []
-              author_comments = [c for c in comments if (c.get("user") or {}).get("login") == author]
-              if not author_comments:
-                  continue
-              author_comments.sort(key=lambda c: c.get("created_at") or "")
-              first_body = (author_comments[0].get("body") or "").strip()
-              if not commit_re.search(first_body):
-                  continue
+          sha = String(prj["head"]["sha"])
+          println("Merging PR #$pr ($merge_method) at $sha")
+          run(`gh api -X PUT repos/$repo/pulls/$pr/merge -f merge_method=$merge_method -f sha=$sha`)
 
-              eligible.append(n)
-
-          if not eligible:
-              print("No eligible PRs.")
-              raise SystemExit(0)
-
-          for n in eligible:
-              try:
-                  print(f"Merging PR #{n}...")
-                  subprocess.check_call([
-                      "gh","pr","merge","-R",repo,str(n),
-                      f"--{merge_method}",
-                      "--delete-branch"
-                  ])
-              except subprocess.CalledProcessError as e:
-                  print(f"Failed to merge PR #{n}: {e}")
-
-          PY
+          if delete_branch
+            ref = String(prj["head"]["ref"])
+            encoded = replace(ref, "/" => "%2F")
+            try
+              run(`gh api -X DELETE repos/$repo/git/refs/heads/$encoded`)
+            catch
+              println("Branch delete failed (ignored).")
+            end
+          end
+          JL
