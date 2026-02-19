@@ -84,19 +84,16 @@ jobs:
             new_jll_package_waiting_period = Minute(20),
             new_version_waiting_period = Minute(10),
             new_jll_version_waiting_period = Minute(10),
-            registry = "JuliaRegistries/General",
+            registry = "ITensor/ITensorRegistry",
             tagbot_enabled = true,
-            authorized_authors = String["JuliaRegistrator"],
-            authorized_authors_special_jll_exceptions = String["jlbuild"],
+            authorized_authors = String["mtfishman"],
+            authorized_authors_special_jll_exceptions = String[""],
             suggest_onepointzero = false,
             additional_statuses = String[],
             additional_check_runs = String[],
             check_license = true,
-            public_registries = String[
-              "https://github.com/HolyLab/HolyLabRegistry",
-              "https://github.com/cossio/CossioJuliaRegistry"
-            ],
-            point_to_slack = true,
+            check_breaking_explanation = true,
+            public_registries = String["https://github.com/HolyLab/HolyLabRegistry"],
           )
         shell: julia --color=yes --project=.ci/ {0}
   AutoMerge-stopwatch:
