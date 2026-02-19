@@ -1,0 +1,91 @@
+name: Auto-merge my registrator PRs after 10 minutes
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: automerge-my-prs
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge eligible PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          AUTHOR: mtfishman
+          HEAD_PREFIX: registrator/
+          MIN_AGE_MINUTES: "10"
+          MERGE_METHOD: squash   # squash | merge | rebase
+          USE_AUTO: "false"      # set true to use gh --auto (see note below)
+        run: |
+          set -euo pipefail
+
+          prs_json="$(gh pr list -R "$REPO" \
+            --state open \
+            --author "$AUTHOR" \
+            --limit 100 \
+            --json number,createdAt,headRefName,baseRefName,isDraft,mergeable)"
+
+          export PRS_JSON="$prs_json"
+
+          pr_numbers="$(python - <<'PY'
+          import os, json, datetime
+          from datetime import timezone
+
+          prs = json.loads(os.environ["PRS_JSON"])
+          prefix = os.environ["HEAD_PREFIX"]
+          min_age = int(os.environ["MIN_AGE_MINUTES"])
+          now = datetime.datetime.now(timezone.utc)
+
+          for pr in prs:
+              if pr.get("isDraft"):
+                  continue
+              if pr.get("baseRefName") != "main":
+                  continue
+              if not pr.get("headRefName","").startswith(prefix):
+                  continue
+              created = datetime.datetime.fromisoformat(pr["createdAt"].replace("Z","+00:00"))
+              age_min = (now - created).total_seconds() / 60
+              if age_min < min_age:
+                  continue
+              if pr.get("mergeable") == "CONFLICTING":
+                  continue
+              print(pr["number"])
+          PY
+          )"
+
+          if [ -z "$pr_numbers" ]; then
+            echo "No eligible PRs."
+            exit 0
+          fi
+
+          case "$MERGE_METHOD" in
+            squash) method_flag="--squash" ;;
+            merge)  method_flag="--merge" ;;
+            rebase) method_flag="--rebase" ;;
+            *) echo "Unknown MERGE_METHOD=$MERGE_METHOD" >&2; exit 2 ;;
+          esac
+
+          auto_flag=""
+          if [ "$USE_AUTO" = "true" ]; then
+            auto_flag="--auto"
+          fi
+
+          for n in $pr_numbers; do
+            echo "Merging PR #$n"
+            gh pr merge -R "$REPO" "$n" \
+              $method_flag \
+              $auto_flag \
+              --delete-branch \
+              --subject "Auto-merge PR #$n" \
+              --body "Auto-merged after ${MIN_AGE_MINUTES} minutes."
+          done

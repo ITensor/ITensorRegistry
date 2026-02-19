@@ -81,7 +81,7 @@ end
 
 function trigger_new_automerge_if_necessary()
     api = GitHub.DEFAULT_API
-    auth = GitHub.OAuth2(ENV["AUTOMERGE_TAGBOT_TOKEN"])
+    auth = GitHub.OAuth2(ENV["GITHUB_TOKEN"])
     registry = GitHub.Repo("ITensor/ITensorRegistry")
     t = time_since_last_automerge(registry; api, auth)
     @info "Time since last AutoMerge" t _canonicalize(t)
