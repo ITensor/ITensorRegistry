@@ -66,7 +66,7 @@ function trigger_new_workflow_dispatch(
     workflow_file_name::AbstractString,
 )
     endpoint = "/repos/$(registry.full_name)/actions/workflows/$(workflow_file_name)/dispatches"
-    params = Dict("ref" => "master")
+    params = Dict("ref" => "main")
     GitHub.gh_post(api, endpoint; auth = auth, params = params)
     return nothing
 end
