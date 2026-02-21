@@ -7,3 +7,6 @@ Runic = "62bfec6d-59d7-401d-8490-b29ee721c001"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+["0.2.14-0"]
+Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
