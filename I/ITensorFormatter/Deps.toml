@@ -10,3 +10,7 @@ YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
 ["0.2.14-0"]
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
+
+["0.2.16-0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
