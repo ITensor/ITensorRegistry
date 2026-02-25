@@ -15,6 +15,7 @@ description = "Private registry for unreleased or unfinished ITensors packages"
 3ab64cf3-766e-4aaa-abdf-a104b28521f5 = { name = "FileUtils", path = "F/FileUtils" }
 3ce3220d-c6cb-4fcd-b3c1-56d9c50edbe5 = { name = "NewPkg", path = "N/NewPkg" }
 3d388ab1-018a-49f4-ae50-18094d5f71ea = { name = "ITensorPkgSkeleton", path = "I/ITensorPkgSkeleton" }
+421c5ee2-4dae-4799-bb38-a6a9d9332403 = { name = "ITensorDocs", path = "I/ITensorDocs" }
 42b3faec-625b-4613-8ddc-352bf9672b8d = { name = "UnspecifiedTypes", path = "U/UnspecifiedTypes" }
 43c9e47c-e622-40fb-bf18-a09fc8c466b6 = { name = "UnallocatedArrays", path = "U/UnallocatedArrays" }
 4795dd04-0d67-49bb-8f44-b89c448a1dc7 = { name = "ITensorBase", path = "I/ITensorBase" }
