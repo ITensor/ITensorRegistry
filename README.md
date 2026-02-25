@@ -1,6 +1,6 @@
-# JuliaRegistry
+# ITensorRegistry
 
-This is the local registry containing work-in-progress versions of packages developed within the ITensors.jl ecosystem.
+This is the local registry containing work-in-progress versions of packages developed within the ITensor Julia ecosystem.
 It is mainly meant to promote fast development and iteration, and its stability should be considered accordingly.
 
 ## Using the registry
