@@ -1,0 +1,40 @@
+name: TagBot Triggers
+
+on:
+  pull_request:
+    types:
+      - closed
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Trigger TagBot on registered package
+        if: github.event_name != 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          # PR title format from ITensorActions Registrator:
+          # "New version: PkgName v1.2.3" or "New package: PkgName v1.2.3"
+          PKG_NAME=$(echo "$PR_TITLE" | sed -n 's/^New \(version\|package\): \([^ ]*\) .*/\2/p')
+          if [ -z "$PKG_NAME" ]; then
+            echo "Could not parse package name from PR title: $PR_TITLE"
+            exit 0
+          fi
+
+          # Look up the package's repo URL from its Package.toml in the registry
+          PKG_TOML=$(grep -rl "^name = \"$PKG_NAME\"" --include="Package.toml" . | head -1)
+          if [ -z "$PKG_TOML" ]; then
+            echo "Package $PKG_NAME not found in registry"
+            exit 0
+          fi
+          REPO_URL=$(grep '^repo' "$PKG_TOML" | sed 's/repo = "//; s/"$//')
+          REPO=$(echo "$REPO_URL" | sed 's|https://github.com/||; s|\.git$||')
+
+          echo "Triggering TagBot for $PKG_NAME at $REPO"
+          gh workflow run TagBot.yml --repo "$REPO"
