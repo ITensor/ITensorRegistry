@@ -6,3 +6,6 @@ LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
 PkgSkeleton = "d254efa0-af53-535e-b7f1-03c1c9fbcbe7"
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+
+["0.3.40-0"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
