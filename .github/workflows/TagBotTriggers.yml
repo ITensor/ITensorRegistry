@@ -16,7 +16,7 @@ jobs:
       - name: Trigger TagBot on registered package
         if: github.event_name != 'workflow_dispatch'
         env:
-          GH_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          GH_TOKEN: ${{ secrets.TAGBOT_PAT }}
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
           # PR title format from ITensorActions Registrator:
