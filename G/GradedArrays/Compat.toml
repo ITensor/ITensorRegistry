@@ -94,12 +94,18 @@ TensorAlgebra = "0.5"
 TensorAlgebra = "0.6.2-0.6"
 
 ["0.6-0"]
-KroneckerArrays = "0.3"
 SparseArraysBase = "0.9"
 TensorKitSectors = "0.3"
+
+["0.6-0.6.21"]
+KroneckerArrays = "0.3"
 
 ["0.6.0"]
 TensorAlgebra = "0.6"
 
-["0.6.1-0"]
+["0.6.1-0.6.21"]
 TensorAlgebra = "0.6-0.7"
+
+["0.6.22-0"]
+KroneckerArrays = "0.3.27-0.3"
+TensorAlgebra = "0.7.20-0.7"
