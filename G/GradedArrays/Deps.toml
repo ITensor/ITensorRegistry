@@ -32,3 +32,6 @@ TensorKitSectors = "13a9c161-d5da-41f0-bcbd-e1a08ae0647f"
 ["0.6-0"]
 KroneckerArrays = "05d0b138-81bc-4ff7-84be-08becefb1ccc"
 SparseArraysBase = "0d5efcca-f356-4864-8770-e1ed8d78f208"
+
+["0.6.23-0"]
+FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
