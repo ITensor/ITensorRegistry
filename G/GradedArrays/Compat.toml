@@ -109,3 +109,6 @@ TensorAlgebra = "0.6-0.7"
 ["0.6.22-0"]
 KroneckerArrays = "0.3.27-0.3"
 TensorAlgebra = "0.7.20-0.7"
+
+["0.6.23-0"]
+FunctionImplementations = "0.4.14-0.4"
