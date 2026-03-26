@@ -1,0 +1,3 @@
+name = "GaussianFermions"
+uuid = "2621d614-78f7-4793-80a6-586747345a0a"
+repo = "https://github.com/ITensor/GaussianFermions.jl.git"
