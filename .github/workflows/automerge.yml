@@ -29,7 +29,7 @@ jobs:
 
       - name: Merge after 10 minutes if PR matches format
         env:
-          GH_TOKEN: ${{ secrets.TAGBOT_PAT }}
+          GH_TOKEN: ${{ secrets.AUTOMERGE_PAT }}
           REPO: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number }}
 
@@ -61,22 +61,11 @@ jobs:
 
             jq = "[.state, (.draft|tostring), .title, .user.login, .base.ref, .head.ref, .head.repo.full_name, .created_at, .head.sha, (.body // \"\" | @base64)] | @tsv"
 
-            function meta(; retries=3, delay=5)
-              for attempt in 1:retries
-                try
-                  f = split(sh(`gh api repos/$repo/pulls/$pr --jq $jq`), '\t'; keepempty=true)
-                  state,draft,title,author,base,head,head_repo,created,sha,body64 = f
-                  body = String(base64decode(body64))
-                  return (; state,draft,title,author,base,head,head_repo,created,sha,body)
-                catch e
-                  if attempt < retries
-                    @warn "Failed to fetch PR metadata (attempt $attempt/$retries), retrying in $(delay)s..." exception=e
-                    sleep(delay)
-                  else
-                    rethrow()
-                  end
-                end
-              end
+            function meta()
+              f = split(sh(`gh api repos/$repo/pulls/$pr --jq $jq`), '\t'; keepempty=true)
+              state,draft,title,author,base,head,head_repo,created,sha,body64 = f
+              body = String(base64decode(body64))
+              return (; state,draft,title,author,base,head,head_repo,created,sha,body)
             end
 
             function eligible(m)
