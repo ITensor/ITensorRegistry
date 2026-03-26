@@ -46,54 +46,69 @@ jobs:
           julia <<'JL'
           using Dates, Base64
 
-          sh(cmd) = chomp(read(cmd, String))
-          repo = ENV["REPO"]
-          pr   = parse(Int, ENV["PR_NUMBER"])
+          function main()
+            sh(cmd) = chomp(read(cmd, String))
+            repo = ENV["REPO"]
+            pr   = parse(Int, ENV["PR_NUMBER"])
 
-          min_age = Minute(parse(Int, get(ENV,"MIN_AGE_MINUTES","10")))
-          allowed = filter(!isempty, strip.(split(get(ENV,"ALLOWED_AUTHORS",""), ',')))
-          head_prefix = get(ENV,"HEAD_PREFIX","")
-          title_re  = Regex(get(ENV,"TITLE_REGEX","^New version:"))
-          commit_re = Regex(get(ENV,"COMMIT_REGEX","(?m)^Commit:"))
-          method = get(ENV,"MERGE_METHOD","squash")
-          del_branch = get(ENV,"DELETE_BRANCH","true") == "true"
+            min_age = Minute(parse(Int, get(ENV,"MIN_AGE_MINUTES","10")))
+            allowed = filter(!isempty, strip.(split(get(ENV,"ALLOWED_AUTHORS",""), ',')))
+            head_prefix = get(ENV,"HEAD_PREFIX","")
+            title_re  = Regex(get(ENV,"TITLE_REGEX","^New version:"))
+            commit_re = Regex(get(ENV,"COMMIT_REGEX","(?m)^Commit:"))
+            method = get(ENV,"MERGE_METHOD","squash")
+            del_branch = get(ENV,"DELETE_BRANCH","true") == "true"
 
-          jq = "[.state, (.draft|tostring), .title, .user.login, .base.ref, .head.ref, .head.repo.full_name, .created_at, .head.sha, (.body // \"\" | @base64)] | @tsv"
+            jq = "[.state, (.draft|tostring), .title, .user.login, .base.ref, .head.ref, .head.repo.full_name, .created_at, .head.sha, (.body // \"\" | @base64)] | @tsv"
 
-          function meta()
-            f = split(sh(`gh api repos/$repo/pulls/$pr --jq $jq`), '\t'; keepempty=true)
-            state,draft,title,author,base,head,head_repo,created,sha,body64 = f
-            body = String(base64decode(body64))
-            return (; state,draft,title,author,base,head,head_repo,created,sha,body)
+            function meta(; retries=3, delay=5)
+              for attempt in 1:retries
+                try
+                  f = split(sh(`gh api repos/$repo/pulls/$pr --jq $jq`), '\t'; keepempty=true)
+                  state,draft,title,author,base,head,head_repo,created,sha,body64 = f
+                  body = String(base64decode(body64))
+                  return (; state,draft,title,author,base,head,head_repo,created,sha,body)
+                catch e
+                  if attempt < retries
+                    @warn "Failed to fetch PR metadata (attempt $attempt/$retries), retrying in $(delay)s..." exception=e
+                    sleep(delay)
+                  else
+                    rethrow()
+                  end
+                end
+              end
+            end
+
+            function eligible(m)
+              m.state == "open" || return false
+              m.draft == "false" || return false
+              m.base == "main" || return false
+              m.head_repo == repo || return false
+              isempty(allowed) || (m.author in allowed) || return false
+              isempty(head_prefix) || startswith(m.head, head_prefix) || return false
+              occursin(title_re, m.title) || return false
+              occursin(commit_re, m.body) || return false
+              return true
+            end
+
+            m = meta()
+            eligible(m) || (println("PR #$pr not eligible; exiting."); return)
+
+            created = split(replace(m.created, "Z"=>""), ".")[1]
+            created_dt = DateTime(created, dateformat"yyyy-mm-ddTHH:MM:SS")
+            wait_ms = Dates.value((created_dt + min_age) - now())
+            wait_ms > 0 && sleep(ceil(Int, wait_ms/1000))
+
+            m = meta()
+            eligible(m) || (println("PR #$pr no longer eligible; exiting."); return)
+
+            run(`gh api -X PUT repos/$repo/pulls/$pr/merge -f merge_method=$method -f sha=$(m.sha)`)
+
+            if del_branch
+              enc = replace(m.head, "/" => "%2F")
+              try run(`gh api -X DELETE repos/$repo/git/refs/heads/$enc`) catch; end
+            end
           end
 
-          function eligible(m)
-            m.state == "open" || return false
-            m.draft == "false" || return false
-            m.base == "main" || return false
-            m.head_repo == repo || return false
-            isempty(allowed) || (m.author in allowed) || return false
-            isempty(head_prefix) || startswith(m.head, head_prefix) || return false
-            occursin(title_re, m.title) || return false
-            occursin(commit_re, m.body) || return false
-            return true
-          end
-
-          m = meta()
-          eligible(m) || (println("PR #$pr not eligible; exiting."); exit(0))
-
-          created = split(replace(m.created, "Z"=>""), ".")[1]
-          created_dt = DateTime(created, dateformat"yyyy-mm-ddTHH:MM:SS")
-          wait_ms = Dates.value((created_dt + min_age) - now())
-          wait_ms > 0 && sleep(ceil(Int, wait_ms/1000))
-
-          m = meta()
-          eligible(m) || (println("PR #$pr no longer eligible; exiting."); exit(0))
-
-          run(`gh api -X PUT repos/$repo/pulls/$pr/merge -f merge_method=$method -f sha=$(m.sha)`)
-
-          if del_branch
-            enc = replace(m.head, "/" => "%2F")
-            try run(`gh api -X DELETE repos/$repo/git/refs/heads/$enc`) catch; end
-          end
+          main()
           JL
