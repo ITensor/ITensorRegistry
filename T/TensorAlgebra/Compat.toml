@@ -58,5 +58,8 @@ Strided = "2.3.2-2"
 ["0.6.7-0.6.9"]
 FunctionImplementations = "0.3.1-0.3"
 
-["0.6.8-0"]
+["0.6.8-0.9.0"]
 StridedViews = "0.4.1-0.4"
+
+["0.9.1-0"]
+StridedViews = "0.4.1-0.5"
