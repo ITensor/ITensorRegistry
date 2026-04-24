@@ -34,7 +34,7 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number }}
 
           MIN_AGE_MINUTES: "10"
-          ALLOWED_AUTHORS: "mtfishman"          # comma-separated; set "" to allow anyone
+          ALLOWED_AUTHORS: "ITensorBot,mtfishman" # comma-separated; set "" to allow anyone
           HEAD_PREFIX: "registrator/"           # set "" to disable
 
           TITLE_REGEX: '^New version:\s+.+\sv[0-9]'
