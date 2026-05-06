@@ -35,3 +35,6 @@ SparseArraysBase = "0d5efcca-f356-4864-8770-e1ed8d78f208"
 
 ["0.6.23-0"]
 FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
+
+["0.9-0"]
+Dictionaries = "85a47980-9c8c-11e8-2b9f-f7ca1fa99fb4"

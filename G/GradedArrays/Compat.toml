@@ -120,3 +120,6 @@ TensorAlgebra = "0.8"
 
 ["0.8.4-0"]
 TensorAlgebra = "0.8-0.9"
+
+["0.9-0"]
+Dictionaries = "0.4"
