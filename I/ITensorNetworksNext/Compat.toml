@@ -78,5 +78,11 @@ NamedDimsArrays = "0.14.2-0.14"
 ["0.4-0"]
 DataGraphs = "0.4"
 FunctionImplementations = "0.4.1-0.4"
-NamedDimsArrays = "0.14.3-0.14"
 NamedGraphs = "0.11"
+
+["0.4.0"]
+NamedDimsArrays = "0.14.3-0.14"
+
+["0.4.1-0"]
+NamedDimsArrays = "0.14.3-0.15"
+TensorAlgebra = "0.9.2-0.9"
