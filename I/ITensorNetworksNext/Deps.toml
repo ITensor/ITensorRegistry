@@ -35,3 +35,6 @@ AlgorithmsInterface = "d1e3940c-cd12-4505-8585-b0a4b322527d"
 
 ["0.3.2-0"]
 FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
+
+["0.4.1-0"]
+TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
