@@ -45,6 +45,7 @@ e16ca583-1f51-4df0-8e12-57d32947d33e = { name = "FusionTensors", path = "F/Fusio
 e204200e-d7ba-4b7e-bfa9-053a2e530198 = { name = "WidenableArrays", path = "W/WidenableArrays" }
 e2de450a-8a67-46c7-b59c-01d5a3d041c5 = { name = "GradedUnitRanges", path = "G/GradedUnitRanges" }
 ebd9b9da-f48d-417c-9660-449667d60261 = { name = "MapBroadcast", path = "M/MapBroadcast" }
+f69a9d33-c8d2-4953-8469-d5c5d6e332be = { name = "ITensorTestPackageDependent", path = "I/ITensorTestPackageDependent" }
 f856a3a6-4152-4ec4-b2a7-02c1a55d7993 = { name = "LabelledNumbers", path = "L/LabelledNumbers" }
 f8a8ad64-adbc-4fce-92f7-ffe2bb36a86e = { name = "SymmetrySectors", path = "S/SymmetrySectors" }
 f9fb0810-3969-484c-b54e-62935ba8ba22 = { name = "ITensorEntropyTools", path = "I/ITensorEntropyTools" }
