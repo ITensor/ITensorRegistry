@@ -17,6 +17,9 @@ BroadcastMapConversion = "4a4adec5-520f-4750-bb37-d5e66b4ddeb2"
 ["0.12-0"]
 FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
 
+["0.15.5-0"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
 ["0.2-0"]
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
 
