@@ -14,7 +14,7 @@ Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 ["0-0.3.3"]
 BroadcastMapConversion = "4a4adec5-520f-4750-bb37-d5e66b4ddeb2"
 
-["0.12-0"]
+["0.12-0.15.8"]
 FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
 
 ["0.15.5-0"]
