@@ -33,3 +33,9 @@ GradedArrays = "0.4"
 
 ["0.2.9-0.3"]
 SparseArraysBase = "0.7"
+
+["0.6-0"]
+AbstractTrees = "0.4.5-0.4"
+Adapt = "4.1.1-4"
+BlockArrays = "1.3.0-1"
+Mooncake = "0.4.202-0.5"
