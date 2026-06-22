@@ -31,11 +31,11 @@ NamedGraphs = "0.6.9-0.7"
 ["0.1.5-0.2.3"]
 NamedDimsArrays = "0.8"
 
-["0.1.6-0"]
+["0.1.6-0.6.0"]
 TermInterface = "2"
 WrappedUnions = "0.3"
 
-["0.1.8-0"]
+["0.1.8-0.6.0"]
 AbstractTrees = "0.4.5-0.4"
 
 ["0.1.9-0.5"]
@@ -100,5 +100,10 @@ NamedDimsArrays = "0.15.8-0.15"
 TensorAlgebra = "0.9.5-0.9"
 
 ["0.5-0"]
-ITensorBase = "0.6.2-0.6"
 TensorAlgebra = "0.9.7-0.9"
+
+["0.5-0.6.0"]
+ITensorBase = "0.6.2-0.6"
+
+["0.6.1-0"]
+ITensorBase = "0.6.3-0.6"
