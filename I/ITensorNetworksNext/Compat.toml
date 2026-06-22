@@ -3,7 +3,6 @@ julia = "1.10.0-1"
 
 ["0.1.1-0"]
 Adapt = "4.3.0-4"
-BackendSelection = "0.1.6-0.1"
 Dictionaries = "0.4.5-0.4"
 Graphs = "1.13.1-1"
 LinearAlgebra = "1.10.0-1"
@@ -19,6 +18,9 @@ NamedDimsArrays = "0.7.13-0.7"
 
 ["0.1.1-0.3"]
 DataGraphs = "0.2.7-0.2"
+
+["0.1.1-0.5"]
+BackendSelection = "0.1.6-0.1"
 
 ["0.1.13-0.3.6"]
 DiagonalArrays = "0.3.23-0.3"
@@ -36,7 +38,7 @@ WrappedUnions = "0.3"
 ["0.1.8-0"]
 AbstractTrees = "0.4.5-0.4"
 
-["0.1.9-0"]
+["0.1.9-0.5"]
 TypeParameterAccessors = "0.4.4-0.4"
 
 ["0.2-0"]
@@ -77,8 +79,10 @@ DiagonalArrays = "0.3.31-0.3"
 
 ["0.4-0"]
 DataGraphs = "0.4"
-FunctionImplementations = "0.4.1-0.4"
 NamedGraphs = "0.11"
+
+["0.4-0.5"]
+FunctionImplementations = "0.4.1-0.4"
 
 ["0.4.0"]
 NamedDimsArrays = "0.14.3-0.14"
