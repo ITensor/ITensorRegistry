@@ -18,11 +18,11 @@ BackendSelection = "680c2d7c-f67a-4cc9-ae9c-da132b1447a5"
 ["0.1.13-0.4"]
 DiagonalArrays = "74fd4be6-21e2-4f6f-823a-4360d37c7a77"
 
-["0.1.6-0"]
+["0.1.6-0.6.0"]
 TermInterface = "8ea1fca8-c5ef-4a55-8b96-4e9afe9c9a3c"
 WrappedUnions = "325db55a-9c6c-5b90-b1a2-ec87e7a38c44"
 
-["0.1.8-0"]
+["0.1.8-0.6.0"]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 
 ["0.1.9-0.5"]
