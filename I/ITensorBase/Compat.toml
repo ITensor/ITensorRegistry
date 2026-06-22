@@ -112,3 +112,9 @@ TensorAlgebra = "0.9.6-0.9"
 TupleTools = "1.6.0-1"
 UUIDs = "1.10.0-1"
 VectorInterface = "0.5-0.6"
+
+["0.6.3-0"]
+AbstractTrees = "0.4.5-0.4"
+Combinatorics = "1"
+TermInterface = "2"
+WrappedUnions = "0.3"
