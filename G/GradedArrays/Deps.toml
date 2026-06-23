@@ -12,10 +12,12 @@ TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
 ["0.2-0"]
 BlockSparseArrays = "2c9a651f-6452-4ace-a6ac-809f4280fbb4"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 
 ["0.2-0.4.7"]
 DerivableInterfaces = "6c5e35bf-e59e-4898-b73c-732dcc4ba65f"
+
+["0.2-0.9.6"]
+TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 
 ["0.4.20-0"]
 ArrayLayouts = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
@@ -30,8 +32,10 @@ MatrixAlgebraKit = "6c742aac-3347-4629-af66-fc926824e5e4"
 TensorKitSectors = "13a9c161-d5da-41f0-bcbd-e1a08ae0647f"
 
 ["0.6-0"]
-KroneckerArrays = "05d0b138-81bc-4ff7-84be-08becefb1ccc"
 SparseArraysBase = "0d5efcca-f356-4864-8770-e1ed8d78f208"
+
+["0.6-0.9.6"]
+KroneckerArrays = "05d0b138-81bc-4ff7-84be-08becefb1ccc"
 
 ["0.6.23-0"]
 FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"

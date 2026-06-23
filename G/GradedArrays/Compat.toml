@@ -33,7 +33,7 @@ BlockSparseArrays = "0.4.2-0.4"
 ["0.4-0.4.2"]
 BlockSparseArrays = "0.5"
 
-["0.4.10-0"]
+["0.4.10-0.9.6"]
 TypeParameterAccessors = "0.4"
 
 ["0.4.16-0.4.18"]
@@ -106,11 +106,11 @@ TensorAlgebra = "0.6"
 ["0.6.1-0.6.21"]
 TensorAlgebra = "0.6-0.7"
 
-["0.6.22-0"]
-KroneckerArrays = "0.3.27-0.3"
-
 ["0.6.22-0.7.0"]
 TensorAlgebra = "0.7.20-0.7"
+
+["0.6.22-0.9.6"]
+KroneckerArrays = "0.3.27-0.3"
 
 ["0.6.23-0"]
 FunctionImplementations = "0.4.14-0.4"
