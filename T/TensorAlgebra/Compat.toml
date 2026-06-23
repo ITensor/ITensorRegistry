@@ -37,7 +37,7 @@ BlockArrays = "1.7.2-1"
 ["0.3.6-0.3.13"]
 MatrixAlgebraKit = "0.2"
 
-["0.3.7-0"]
+["0.3.7-0.9"]
 TypeParameterAccessors = "0.2.1-0.4"
 
 ["0.4.3-0.4.4"]
@@ -49,7 +49,7 @@ MatrixAlgebraKit = "0.2-0.5"
 ["0.4.6-0"]
 MatrixAlgebraKit = "0.2-0.6"
 
-["0.6.10-0"]
+["0.6.10-0.9"]
 FunctionImplementations = "0.3.1-0.4"
 
 ["0.6.7"]
