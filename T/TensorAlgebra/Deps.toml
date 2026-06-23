@@ -7,7 +7,7 @@ TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
 ArrayLayouts = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
 
-["0.1.1-0"]
+["0.1.1-0.9"]
 TypeParameterAccessors = "7e5a90cf-f82e-492e-a09b-e3e26432c138"
 
 ["0.2.3-0"]
@@ -19,7 +19,7 @@ TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
 ["0.6.7"]
 Strided = "5e0ebb24-38b0-5f93-81fe-25c709ecae67"
 
-["0.6.7-0"]
+["0.6.7-0.9"]
 FunctionImplementations = "7c7cc465-9c6a-495f-bdd1-f42428e86d0c"
 
 ["0.6.8-0"]
