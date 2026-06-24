@@ -121,6 +121,11 @@ Combinatorics = "1"
 TermInterface = "2"
 WrappedUnions = "0.3"
 
+["0.7"]
+TensorAlgebra = "0.10"
+
 ["0.7-0"]
 MatrixAlgebraKit = "0.2-0.6"
-TensorAlgebra = "0.10"
+
+["0.8-0"]
+TensorAlgebra = "0.11"
