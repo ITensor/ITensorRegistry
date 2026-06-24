@@ -108,6 +108,10 @@ ITensorBase = "0.6.2-0.6"
 ["0.6.1-0.6"]
 ITensorBase = "0.6.3-0.6"
 
-["0.7-0"]
+["0.7.0"]
 ITensorBase = "0.7"
 TensorAlgebra = "0.10"
+
+["0.7.1-0"]
+ITensorBase = "0.8"
+TensorAlgebra = "0.11"
