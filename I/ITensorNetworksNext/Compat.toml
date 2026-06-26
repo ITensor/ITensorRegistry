@@ -118,5 +118,8 @@ TensorAlgebra = "0.10"
 ITensorBase = "0.8"
 TensorAlgebra = "0.11"
 
-["0.7.2-0"]
+["0.7.2"]
 NamedGraphs = "0.11-0.12"
+
+["0.7.3-0"]
+NamedGraphs = "0.11"
