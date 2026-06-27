@@ -18,8 +18,11 @@ SparseArraysBase = "0.10"
 ["0.10.0"]
 TensorAlgebra = "0.10"
 
-["0.10.1-0"]
+["0.10.1-0.11"]
 TensorAlgebra = "0.11"
+
+["0.12-0"]
+TensorAlgebra = "0.12"
 
 ["0.2-0"]
 LinearAlgebra = "1.10.0-1"
