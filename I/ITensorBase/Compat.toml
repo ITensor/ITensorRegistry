@@ -133,5 +133,8 @@ TensorAlgebra = "0.11"
 ["0.8.5"]
 TensorAlgebra = "0.11-0.12"
 
-["0.8.6-0"]
+["0.8.6"]
 TensorAlgebra = "0.12.4-0.12"
+
+["0.8.7-0"]
+TensorAlgebra = "0.12.4-0.13"
