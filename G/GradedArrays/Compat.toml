@@ -33,9 +33,14 @@ TensorAlgebra = "0.12.4-0.12"
 ["0.12.5-0.13.1"]
 TensorAlgebra = "0.12.4-0.13"
 
+["0.13.2"]
+TensorAlgebra = "0.14"
+
 ["0.13.2-0"]
 StridedViews = "0.5"
-TensorAlgebra = "0.14"
+
+["0.13.3-0"]
+TensorAlgebra = "0.15"
 
 ["0.2-0"]
 LinearAlgebra = "1.10.0-1"
