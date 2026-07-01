@@ -126,12 +126,16 @@ NamedGraphs = "0.11-0.12"
 ["0.7.3-0.8"]
 NamedGraphs = "0.11"
 
-["0.7.5-0"]
+["0.7.5-0.9.0"]
 TensorAlgebra = "0.11-0.13"
 
-["0.8-0"]
+["0.8-0.9.0"]
 ITensorBase = "0.9"
 
 ["0.9-0"]
 DataGraphs = "0.5"
 NamedGraphs = "0.11-0.12"
+
+["0.9.1-0"]
+ITensorBase = "0.10"
+TensorAlgebra = "0.14"
