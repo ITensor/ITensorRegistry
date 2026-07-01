@@ -9,6 +9,9 @@ SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
 ["0-0.5.4"]
 TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
 
+["0.13.2-0"]
+StridedViews = "4db3bf67-4bd7-4b4e-b153-31dc3fb37143"
+
 ["0.2-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
