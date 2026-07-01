@@ -7,7 +7,7 @@ TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
 ["0.6.12-0"]
 Mooncake = "da2b9cff-9c12-43a0-ae48-6db2b0edb7d6"
 
-["0.6.7-0"]
+["0.6.7-0.13"]
 GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
 
 ["0.7-0.10"]
