@@ -1,6 +1,9 @@
 ["0-0.2.3"]
 GradedUnitRanges = "0.1"
 
+["0.16.1-0"]
+TensorKit = "0.17"
+
 ["0.3.13-0"]
 TensorOperations = "5"
 
