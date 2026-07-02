@@ -1,3 +1,6 @@
+["0.13.6-0"]
+TensorKit = "07d1fe3e-3e46-537d-9eac-e9e13d0d4cec"
+
 ["0.2-0.4.22"]
 TensorAlgebra = "68bd88dc-f39d-4e12-b2ca-f046b68fcc6a"
 
