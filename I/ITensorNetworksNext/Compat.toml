@@ -142,5 +142,8 @@ TensorAlgebra = "0.14"
 ["0.9.1-0"]
 ITensorBase = "0.10"
 
-["0.9.2-0"]
+["0.9.2"]
 TensorAlgebra = "0.15"
+
+["0.9.3-0"]
+TensorAlgebra = "0.16"
