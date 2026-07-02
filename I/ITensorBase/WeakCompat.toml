@@ -25,6 +25,9 @@ GradedUnitRanges = "0.2"
 ["0.10.5-0"]
 TensorKit = "0.17"
 
+["0.10.6-0"]
+OMEinsumContractionOrders = "1"
+
 ["0.2-0.2.1"]
 GradedArrays = "0.2.1-0.2"
 
