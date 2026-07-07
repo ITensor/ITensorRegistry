@@ -23,6 +23,9 @@ StridedViews = "0.5"
 ["0.16.2-0"]
 Random = "1.10.0-1"
 
+["0.17-0"]
+MatrixAlgebraKit = "0.6"
+
 ["0.2.3-0.3.5"]
 MatrixAlgebraKit = "0.1.1-0.1"
 
@@ -53,7 +56,7 @@ MatrixAlgebraKit = "0.2-0.4"
 ["0.4.5"]
 MatrixAlgebraKit = "0.2-0.5"
 
-["0.4.6-0"]
+["0.4.6-0.16"]
 MatrixAlgebraKit = "0.2-0.6"
 
 ["0.6.10-0.9"]
