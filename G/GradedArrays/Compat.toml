@@ -45,8 +45,11 @@ TensorAlgebra = "0.15"
 ["0.13.5-0.13.7"]
 TensorAlgebra = "0.16"
 
-["0.13.8-0"]
+["0.13.8"]
 TensorAlgebra = "0.17"
+
+["0.13.9-0"]
+TensorAlgebra = "0.17.1-0.17"
 
 ["0.2-0"]
 LinearAlgebra = "1.10.0-1"
