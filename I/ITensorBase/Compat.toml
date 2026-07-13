@@ -134,7 +134,6 @@ TensorAlgebra = "0.9.6-0.9"
 
 ["0.6-0"]
 ArrayLayouts = "1.11.0-1"
-Compat = "4.16.0-4"
 LinearAlgebra = "1.10.0-1"
 OrderedCollections = "1.6.0-1"
 SimpleTraits = "0.9.4-0.9"
@@ -143,6 +142,9 @@ UUIDs = "1.10.0-1"
 
 ["0.6-0.10.4"]
 VectorInterface = "0.5-0.6"
+
+["0.6-0.11.4"]
+Compat = "4.16.0-4"
 
 ["0.6.3-0"]
 AbstractTrees = "0.4.5-0.4"
