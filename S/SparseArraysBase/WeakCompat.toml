@@ -19,7 +19,7 @@ TensorAlgebra = "0.15"
 ["0.10.6"]
 TensorAlgebra = "0.15-0.16"
 
-["0.10.7-0"]
+["0.10.7"]
 TensorAlgebra = "0.15-0.17"
 
 ["0.7.10"]
