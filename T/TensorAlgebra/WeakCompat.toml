@@ -7,6 +7,9 @@ TensorKit = "0.17"
 ["0.17.3-0"]
 VectorInterface = "0.4.8-0.5"
 
+["0.17.9-0"]
+TensorKitSectors = "0.3.9-0.3"
+
 ["0.3.13-0"]
 TensorOperations = "5"
 
