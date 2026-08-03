@@ -31,13 +31,16 @@ OMEinsumContractionOrders = "1"
 ["0.12-0"]
 OMEinsumContractionOrders = "1.3.0-1"
 
+["0.13.13-0"]
+GradedArrays = "0.15"
+
 ["0.13.6-0"]
 TensorKitSectors = "0.3.9-0.3"
 
 ["0.13.6-0.13.7"]
 GradedArrays = "0.14.2-0.14"
 
-["0.13.8-0"]
+["0.13.8-0.13.12"]
 GradedArrays = "0.14.6-0.14"
 
 ["0.2-0.2.1"]
