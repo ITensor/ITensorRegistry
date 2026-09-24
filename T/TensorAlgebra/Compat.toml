@@ -1,11 +1,13 @@
 [0]
-EllipsisNotation = "1.8.0-1"
 LinearAlgebra = "1.10.0-1"
 TupleTools = "1.6.0-1"
 julia = "1.10.0-1"
 
 ["0-0.2.3"]
 BlockArrays = "1.2.0-1"
+
+["0-0.20"]
+EllipsisNotation = "1.8.0-1"
 
 ["0-0.6"]
 ArrayLayouts = "1.10.4-1"
