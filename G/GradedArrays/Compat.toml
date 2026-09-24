@@ -89,10 +89,15 @@ TensorAlgebra = "0.18"
 ["0.16-0"]
 MappedArrays = "0.4.2-0.4"
 ScopedValues = "1"
+
+["0.16-0.16.3"]
 TensorAlgebra = "0.20"
 
 ["0.16.2-0"]
 VectorInterface = "0.6"
+
+["0.16.4-0"]
+TensorAlgebra = "0.21"
 
 ["0.2-0"]
 LinearAlgebra = "1.10.0-1"
