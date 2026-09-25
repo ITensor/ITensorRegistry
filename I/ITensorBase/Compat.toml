@@ -81,11 +81,14 @@ TensorAlgebra = "0.17.8-0.17"
 ["0.13.6-0.13.12"]
 TensorAlgebra = "0.17.10-0.17"
 
-["0.14-0"]
+["0.14-0.14.1"]
 TensorAlgebra = "0.20"
 
 ["0.14.1-0"]
 VectorInterface = "0.6"
+
+["0.14.2-0"]
+TensorAlgebra = "0.21"
 
 ["0.2-0.2.1"]
 NamedDimsArrays = "0.6"
