@@ -96,8 +96,11 @@ TensorAlgebra = "0.20"
 ["0.16.2-0"]
 VectorInterface = "0.6"
 
-["0.16.4-0"]
+["0.16.4"]
 TensorAlgebra = "0.21"
+
+["0.16.5-0"]
+TensorAlgebra = "0.21.1-0.21"
 
 ["0.2-0"]
 LinearAlgebra = "1.10.0-1"
