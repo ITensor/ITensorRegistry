@@ -87,8 +87,11 @@ TensorAlgebra = "0.20"
 ["0.14.1-0"]
 VectorInterface = "0.6"
 
-["0.14.2-0"]
+["0.14.2-0.14"]
 TensorAlgebra = "0.21"
+
+["0.15-0"]
+TensorAlgebra = "0.21.1-0.21"
 
 ["0.2-0.2.1"]
 NamedDimsArrays = "0.6"
@@ -157,7 +160,6 @@ TensorAlgebra = "0.9.6-0.9"
 ArrayLayouts = "1.11.0-1"
 LinearAlgebra = "1.10.0-1"
 SimpleTraits = "0.9.4-0.9"
-TupleTools = "1.6.0-1"
 UUIDs = "1.10.0-1"
 
 ["0.6-0.10.4"]
@@ -168,6 +170,9 @@ Compat = "4.16.0-4"
 
 ["0.6-0.12"]
 OrderedCollections = "1.6.0-1"
+
+["0.6-0.14"]
+TupleTools = "1.6.0-1"
 
 ["0.6.3-0"]
 AbstractTrees = "0.4.5-0.4"
