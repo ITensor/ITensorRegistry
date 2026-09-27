@@ -49,9 +49,14 @@ NamedGraphs = "0.14"
 ITensorBase = "0.14"
 TensorAlgebra = "0.20"
 
-["0.10.4-0"]
+["0.10.4"]
 ITensorBase = "0.14.2-0.14"
+
+["0.10.4-0"]
 TensorAlgebra = "0.21"
+
+["0.10.5-0"]
+ITensorBase = "0.15"
 
 ["0.2-0"]
 Combinatorics = "1"
