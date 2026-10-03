@@ -102,11 +102,14 @@ TensorAlgebra = "0.21"
 ["0.16.5"]
 TensorAlgebra = "0.21.1-0.21"
 
-["0.16.6-0"]
+["0.16.6-0.17.0"]
 TensorAlgebra = "0.22"
 
 ["0.17-0"]
 TensorKitSectors = "0.3.8-0.3"
+
+["0.17.1-0"]
+TensorAlgebra = "0.23"
 
 ["0.2-0"]
 LinearAlgebra = "1.10.0-1"
