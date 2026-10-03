@@ -58,9 +58,14 @@ TensorAlgebra = "0.21"
 ["0.10.5-0.10.6"]
 ITensorBase = "0.15"
 
-["0.10.7-0"]
+["0.10.7"]
 ITensorBase = "0.15.1-0.15"
+
+["0.10.7-0"]
 TensorAlgebra = "0.22"
+
+["0.10.8-0"]
+ITensorBase = "0.15.4-0.15"
 
 ["0.2-0"]
 Combinatorics = "1"
