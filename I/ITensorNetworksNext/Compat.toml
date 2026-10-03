@@ -45,6 +45,10 @@ TypeParameterAccessors = "0.4.4-0.4"
 DataGraphs = "0.6"
 NamedGraphs = "0.14"
 
+["0.10.10-0"]
+ITensorBase = "0.15.5-0.15"
+TensorAlgebra = "0.23"
+
 ["0.10.2-0.10.3"]
 ITensorBase = "0.14"
 TensorAlgebra = "0.20"
@@ -61,10 +65,10 @@ ITensorBase = "0.15"
 ["0.10.7"]
 ITensorBase = "0.15.1-0.15"
 
-["0.10.7-0"]
+["0.10.7-0.10.9"]
 TensorAlgebra = "0.22"
 
-["0.10.8-0"]
+["0.10.8-0.10.9"]
 ITensorBase = "0.15.4-0.15"
 
 ["0.2-0"]
