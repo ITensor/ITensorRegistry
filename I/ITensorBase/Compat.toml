@@ -93,8 +93,11 @@ TensorAlgebra = "0.21"
 ["0.15.0"]
 TensorAlgebra = "0.21.1-0.21"
 
-["0.15.1-0"]
+["0.15.1-0.15.4"]
 TensorAlgebra = "0.22"
+
+["0.15.5-0"]
+TensorAlgebra = "0.23"
 
 ["0.2-0.2.1"]
 NamedDimsArrays = "0.6"
