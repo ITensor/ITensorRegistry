@@ -120,7 +120,7 @@ TensorAlgebra = "0.3"
 ["0.2.8-0.4.2"]
 DerivableInterfaces = "0.5"
 
-["0.3.1-0"]
+["0.3.1-0.15"]
 ConstructionBase = "1.6.0-1"
 
 ["0.3.2"]
@@ -180,7 +180,7 @@ OrderedCollections = "1.6.0-1"
 ["0.6-0.14"]
 TupleTools = "1.6.0-1"
 
-["0.6.3-0"]
+["0.6.3-0.15"]
 AbstractTrees = "0.4.5-0.4"
 Combinatorics = "1"
 TermInterface = "2"

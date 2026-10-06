@@ -28,7 +28,7 @@ TensorKit = "0.17"
 ["0.10.6-0.11"]
 OMEinsumContractionOrders = "1"
 
-["0.12-0"]
+["0.12-0.15"]
 OMEinsumContractionOrders = "1.3.0-1"
 
 ["0.13.13-0.13"]
