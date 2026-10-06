@@ -10,7 +10,7 @@ GradedUnitRanges = "e2de450a-8a67-46c7-b59c-01d5a3d041c5"
 ["0.10.5-0"]
 TensorKit = "07d1fe3e-3e46-537d-9eac-e9e13d0d4cec"
 
-["0.10.6-0"]
+["0.10.6-0.15"]
 OMEinsumContractionOrders = "6f22d1fd-8eed-4bb7-9776-e7d684900715"
 
 ["0.13.6-0"]
