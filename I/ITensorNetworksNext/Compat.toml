@@ -46,8 +46,10 @@ DataGraphs = "0.6"
 NamedGraphs = "0.14"
 
 ["0.10.10-0"]
-ITensorBase = "0.15.5-0.15"
 TensorAlgebra = "0.23"
+
+["0.10.10-0.10"]
+ITensorBase = "0.15.5-0.15"
 
 ["0.10.2-0.10.3"]
 ITensorBase = "0.14"
@@ -70,6 +72,10 @@ TensorAlgebra = "0.22"
 
 ["0.10.8-0.10.9"]
 ITensorBase = "0.15.4-0.15"
+
+["0.11-0"]
+AbstractTrees = "0.4.5-0.4"
+ITensorBase = "0.16"
 
 ["0.2-0"]
 Combinatorics = "1"
