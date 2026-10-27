@@ -77,11 +77,11 @@ Preferences = "1"
 ["0.14.2-0.15.6"]
 TensorAlgebra = "0.17.10-0.17"
 
-["0.14.7-0"]
-TensorKit = "0.17"
-
 ["0.14.7-0.15"]
 TensorOperations = "5"
+
+["0.14.7-0.17.3"]
+TensorKit = "0.17"
 
 ["0.15.7-0.15"]
 TensorAlgebra = "0.18"
@@ -113,6 +113,9 @@ TensorAlgebra = "0.23"
 
 ["0.17.2-0"]
 TensorAlgebra = "0.23.1-0.23"
+
+["0.17.4-0"]
+TensorKit = "0.17.2-0.17"
 
 ["0.2-0"]
 LinearAlgebra = "1.10.0-1"
